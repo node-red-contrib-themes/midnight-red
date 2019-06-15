@@ -8,6 +8,10 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
+**THIS IS A DEVELOPMENT VERSION FOR NODE-RED 1.0**
+
+**FOR THE CURRENT VERSION CHECK THE [`MASTER`][master-branch] BRANCH**
+
 ## About
 
 A dark theme for [Node-RED][node-red] based on the [midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
