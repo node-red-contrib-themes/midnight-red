@@ -10,7 +10,7 @@
 
 **THIS IS A DEVELOPMENT VERSION FOR NODE-RED 1.0**
 
-**FOR THE CURRENT VERSION CHECK THE [`MASTER`][master-branch] BRANCH**
+**FOR THE CURRENT VERSION CHECK THE [`VERSIONS`][npm-versions] LINK ON NPM OR THE [`MASTER`][master-branch] BRANCH ON GITHUB**
 
 ## About
 
@@ -91,3 +91,4 @@ SOFTWARE.
 [master-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/master
 [node-red-doc]: https://nodered.org/docs/configuration
 [node-red]: https://nodered.org/
+[npm-versions]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red?activeTab=versions
