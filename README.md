@@ -29,7 +29,7 @@ cd ~/.node-red
 Install this package.
 
 ```shell
-npm install node-red-contrib-theme-midnight-red
+npm install node-red-contrib-theme-midnight-red@next
 ```
 
 Add the folowing to the `editorTheme` section of your `settings.js`.
