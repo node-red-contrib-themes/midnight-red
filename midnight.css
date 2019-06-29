@@ -2,6 +2,14 @@
   midnight-red - https://github.com/bonanitech/node-red-contrib-theme-midnight-red
 */
 
+::selection {
+  background: #3399ff;
+}
+
+::-moz-selection {
+  background: #3399ff;
+}
+
 .breadcrumb {
   background-color: #434954;
 }
