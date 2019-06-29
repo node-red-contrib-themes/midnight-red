@@ -998,6 +998,10 @@ li.selected .red-ui-search-result-node-label {
   color: #222;
 }
 
+pre {
+  background-color: #EDEDED;
+}
+
 table.node-info tr:not(.blank) {
   border-bottom-color: #2E333A;
   border-top-color: #2E333A;
