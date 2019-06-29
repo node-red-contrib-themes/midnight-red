@@ -868,6 +868,10 @@
   background: #434954
 }
 
+.red-ui-tab-link-buttons a:not(.single).selected:not(.disabled):not(:disabled) {
+  background-color: #EDEDED;
+}
+
 .red-ui-tab-link-buttons a.primary.disabled,
 .red-ui-tab-link-buttons a.primary.ui-state-disabled {
   border-color: #2E333A
