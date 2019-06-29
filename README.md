@@ -47,6 +47,11 @@ Restart Node-RED.
 
 Enjoy!
 
+## Development Version
+
+For the development version (compatible with Node-RED 1.0) check the [`NEXT`][next-tag]
+tag on NPM or the [`1.0`][dev-branch] branch on GitHub.
+
 ## License
 
 MIT License
@@ -77,6 +82,7 @@ SOFTWARE.
 [commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/master
 [contributors]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/graphs/contributors
+[dev-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/1.0
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [ha-midnight-theme]: https://community.home-assistant.io/t/midnight-theme/28598
 [home-assistant]: https://home-assistant.io
@@ -84,6 +90,6 @@ SOFTWARE.
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge
-[master-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/master
+[next-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/next
 [node-red-doc]: https://nodered.org/docs/configuration
 [node-red]: https://nodered.org/
