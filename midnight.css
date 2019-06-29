@@ -1427,6 +1427,10 @@ html .ui-button.ui-state-disabled:active {
   border: 1px solid #2E333A;
 }
 
+a {
+  color: #00a8f5;
+}
+
 a.editor-button,
 button.editor-button,
 a.red-ui-button,
