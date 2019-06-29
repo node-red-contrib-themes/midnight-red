@@ -986,6 +986,10 @@ body {
   color: #222;
 }
 
+code {
+  background-color: #EDEDED;
+}
+
 div.projects-dialog-ssh-public-key pre {
   border-color: #2E333A;
 }
