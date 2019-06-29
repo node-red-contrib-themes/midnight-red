@@ -1708,6 +1708,10 @@ button.red-ui-sidebar-header-button.toggle.selected:not(.disabled):not(:disabled
   background: #434954
 }
 
+code {
+  background-color: #EDEDED;
+}
+
 label.red-ui-diff-selectbox {
   border-left: 1px solid #2E333A
 }
