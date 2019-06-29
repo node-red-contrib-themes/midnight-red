@@ -1716,6 +1716,10 @@ li.selected .red-ui-search-result {
   background: #434954;
 }
 
+pre {
+  background-color: #EDEDED;
+}
+
 table.red-ui-info-table tr:not(.blank) td:first-child {
   color: #ededed;
   background: #383C45;
