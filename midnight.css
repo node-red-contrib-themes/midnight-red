@@ -975,6 +975,10 @@ textarea {
   background-color: #434954;
 }
 
+a {
+  color: #00a8f5;
+}
+
 a:hover,
 a:focus {
   color: #EDEDED;
