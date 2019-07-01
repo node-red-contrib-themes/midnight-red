@@ -529,13 +529,14 @@
 }
 
 .red-ui-menu-dropdown {
-  background: #383C45;
+  background: #434954;
   border: 1px solid #2E333A;
 }
 
 .red-ui-menu-dropdown>li>a,
 .red-ui-menu-dropdown>li>a:focus {
   color: #ededed;
+  background: #434954;
 }
 
 .red-ui-navigator-border {
