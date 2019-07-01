@@ -874,6 +874,10 @@
   background: #434954
 }
 
+.red-ui-tab-link-buttons a:not(.single):not(.selected) {
+  background: #383C45;
+}
+
 .red-ui-tab-link-buttons a:not(.single).selected:not(.disabled):not(:disabled) {
   background-color: #EDEDED;
 }
