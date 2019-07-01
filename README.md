@@ -37,8 +37,7 @@ Add the folowing to the `editorTheme` section of your `settings.js`.
 ```js
 editorTheme: {
     page: {
-        css: "<HOME>/.node-red/node_modules/node-red-contrib-theme-midnight-red/midnight.css",
-        scripts: "<HOME>/.node-red/node_modules/node-red-contrib-theme-midnight-red/theme-tomorrow.js"
+        css: "<HOME>/.node-red/node_modules/node-red-contrib-theme-midnight-red/midnight.css"
     }
 }
 ```
