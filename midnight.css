@@ -1303,6 +1303,10 @@ html .ui-button.ui-state-disabled:active {
   border-bottom: 1px solid #2E333A;
 }
 
+#red-ui-header ul.red-ui-menu-dropdown li a {
+  background: #121212;
+}
+
 #red-ui-library-dialog-load-panes {
   border: 1px solid #2E333A
 }
