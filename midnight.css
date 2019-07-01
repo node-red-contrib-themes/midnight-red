@@ -10,6 +10,10 @@
   background: #3399ff;
 }
 
+.editor-button:hover {
+  color: #666;
+}
+
 .help-key {
   border: 1px solid #2E333A;
   background: #383C45;
