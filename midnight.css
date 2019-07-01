@@ -755,7 +755,8 @@
 
 .red-ui-sidebar-control-right {
   border: 1px solid #2E333A;
-  background: #383C45;
+  background: #EDEDED;
+  color: #999;
 }
 
 .red-ui-sidebar-node-config-filter-info {
