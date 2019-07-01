@@ -749,7 +749,8 @@
 
 .red-ui-sidebar-control-left {
   border: 1px solid #2E333A;
-  background: #383C45;
+  background: #EDEDED;
+  color: #999;
 }
 
 .red-ui-sidebar-control-right {
