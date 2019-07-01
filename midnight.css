@@ -481,6 +481,10 @@
   border: 1px solid #2E333A;
 }
 
+.red-ui-help dl.message-properties>dt {
+  color: orange;
+}
+
 .red-ui-help dl.message-properties>dt .property-type {
   color: #ededed
 }
