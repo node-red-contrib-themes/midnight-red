@@ -16,7 +16,7 @@
 
 A dark theme for [Node-RED][node-red] based on the [midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
 
-![screenshot](https://raw.githubusercontent.com/bonanitech/node-red-contrib-theme-midnight-red/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/bonanitech/node-red-contrib-theme-midnight-red/1.0/images/screenshot.png)
 
 ## Install
 
