@@ -692,6 +692,10 @@
   background-color: #434954;
 }
 
+.red-ui-projects-dialog-screen-start .red-ui-projects-dialog-screen-start-body p {
+  color: #EDEDED;
+}
+
 .red-ui-projects-dialog-screen-start .red-ui-projects-dialog-screen-start-hero {
   color: #EDEDED;
 }
