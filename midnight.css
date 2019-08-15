@@ -262,7 +262,7 @@
   color: #aaa;
 }
 
-.node-diff-property-cell.node-diff-node-changed {
+.node-diff-property-cell .node-diff-node-changed {
   background-color: #434954;
 }
 
