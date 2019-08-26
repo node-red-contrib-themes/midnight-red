@@ -195,6 +195,10 @@
   stroke: #434954;
 }
 
+.node_highlighted {
+  stroke: #DD1616;
+}
+
 .node_label {
   color: #383C45;
 }
