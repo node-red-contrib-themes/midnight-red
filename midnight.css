@@ -319,14 +319,6 @@
   background-color: #434954;
 }
 
-.node_highlighted {
-  fill-opacity: 0 !important;
-}
-
-.node_highlighted .node_label {
-  fill-opacity: 0 !important;
-}
-
 .node_status_label {
   fill: #DEDEDE;
   stroke: #EDEDED;
