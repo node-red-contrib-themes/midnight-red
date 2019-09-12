@@ -1613,6 +1613,15 @@ button.red-ui-button.toggle.selected:not(.disabled):not(:disabled) {
   background-color: #434954;
 }
 
+a.red-ui-debug-msg-name {
+  color: #EDEDED;
+}
+
+a.red-ui-debug-msg-name:hover {
+  color: #EDEDED;
+  text-decoration: underline;
+}
+
 a.red-ui-footer-button-toggle,
 button.red-ui-footer-button-toggle {
   background-color: #434954;
