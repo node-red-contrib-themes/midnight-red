@@ -97,6 +97,10 @@
   background-color: #434954;
 }
 
+.red-ui-debug-msg-topic {
+  color: orange;
+}
+
 .red-ui-debug-msg-type-number {
   color: #2C92D5;
 }
