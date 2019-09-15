@@ -471,8 +471,7 @@
 
 .red-ui-editor select,
 .red-ui-editor-dialog select {
-  background-color: #383C45;
-  border-color: #2E333A;
+  color: #333;
 }
 
 .red-ui-editor textarea,
@@ -1231,14 +1230,14 @@
 .red-ui-typedInput-container button.red-ui-typedInput-type-select,
 .red-ui-typedInput-container button.red-ui-typedInput-option-expand,
 .red-ui-typedInput-container button.red-ui-typedInput-option-trigger {
-  background-color: #383C45;
-  color: #EDEDED;
+  background-color: #EFEFEF;
+  color: #555;
 }
 
 .red-ui-typedInput-container button.red-ui-typedInput-type-select:not(.disabled):hover,
 .red-ui-typedInput-container button.red-ui-typedInput-option-expand:not(.disabled):hover,
 .red-ui-typedInput-container button.red-ui-typedInput-option-trigger:not(.disabled):hover {
-  color: #555;
+  background-color: #DDD;
 }
 
 .red-ui-typedInput-container button.red-ui-typedInput-type-select:not(.disabled):active,
@@ -1249,20 +1248,20 @@
 
 .red-ui-typedInput-options {
   border-color: #2E333A;
-  background-color: #383C45;
+  background-color: #FFF;
 }
 
 .red-ui-typedInput-options a {
-  border-bottom-color: #2E333A;
-  color: #EDEDED;
+  border-bottom-color: #DDD;
+  color: #333;
 }
 
 .red-ui-typedInput-options a:focus {
-  background-color: #434954;
+  color: #222;
 }
 
 .red-ui-typedInput-options a:hover {
-  background-color: #434954;
+  color: #222;
 }
 
 .red-ui-workspace-chart-background {
@@ -1371,6 +1370,7 @@
 
 .ui-spinner input {
   background-color: #434954;
+  color: #EDEDED;
 }
 
 .ui-state-active,
