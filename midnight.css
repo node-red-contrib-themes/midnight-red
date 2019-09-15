@@ -517,6 +517,14 @@
   border-color: #2E333A;
 }
 
+.red-ui-editor-type-json-editor .red-ui-treeList-container {
+  background-color: #434954;
+}
+
+.red-ui-editor-type-json-editor-item-gutter {
+  background-color: #383C45;
+}
+
 .red-ui-editor-type-markdown-panel-preview {
   border-color: #2E333A;
   background-color: #434954;
