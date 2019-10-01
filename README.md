@@ -8,15 +8,11 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
-**THIS IS A DEVELOPMENT VERSION FOR NODE-RED 1.0**
-
-**FOR THE CURRENT PRODUCTION VERSION CHECK THE [`LATEST`][latest-version] TAG ON NPM OR THE [`MASTER`][master-branch] BRANCH ON GITHUB**
-
 ## About
 
 A dark theme for [Node-RED][node-red] based on the [midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
 
-![screenshot](https://raw.githubusercontent.com/bonanitech/node-red-contrib-theme-midnight-red/1.0/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/bonanitech/node-red-contrib-theme-midnight-red/master/images/screenshot.png)
 
 ## Install
 
@@ -29,7 +25,7 @@ cd ~/.node-red
 Install this package.
 
 ```shell
-npm install node-red-contrib-theme-midnight-red@next
+npm install node-red-contrib-theme-midnight-red
 ```
 
 Add the folowing to the `editorTheme` section of your `settings.js`.
@@ -49,6 +45,11 @@ For more details on the configuration please refer to the [Node-RED official doc
 Restart Node-RED.
 
 Enjoy!
+
+## Legacy Version
+
+For the legacy version (compatible with Node-RED 0.20.X) check the [`LEGACY`][legacy-tag]
+tag on NPM or the [`LEGACY`][legacy-branch] branch on GitHub.
 
 ## License
 
@@ -85,9 +86,9 @@ SOFTWARE.
 [home-assistant]: https://home-assistant.io
 [issue]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
-[latest-version]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/latest
+[legacy-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/legacy
+[legacy-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/legacy
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge
-[master-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/master
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
