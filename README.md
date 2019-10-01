@@ -8,11 +8,15 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
+**THIS IS A LEGACY VERSION FOR NODE-RED 0.20.X**
+
+**FOR THE CURRENT PRODUCTION VERSION CHECK THE [`LATEST`][latest-version] TAG ON NPM OR THE [`MASTER`][master-branch] BRANCH ON GITHUB**
+
 ## About
 
 A dark theme for [Node-RED][node-red] based on the [midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
 
-![screenshot](https://raw.githubusercontent.com/bonanitech/node-red-contrib-theme-midnight-red/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/bonanitech/node-red-contrib-theme-midnight-red/legacy/images/screenshot.png)
 
 ## Install
 
@@ -80,7 +84,7 @@ SOFTWARE.
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/mbonani
 [commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
-[commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/master
+[commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/legacy
 [contributors]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/graphs/contributors
 [dev-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/1.0
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
