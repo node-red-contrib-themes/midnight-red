@@ -1937,6 +1937,14 @@ code {
   background-color: #EDEDED;
 }
 
+input#node-dialog-login-submit {
+  color: #EDEDED;
+}
+
+input#node-dialog-login-submit:hover {
+  color: #454545;
+}
+
 label.red-ui-diff-selectbox {
   border-left-color: #2E333A;
 }
