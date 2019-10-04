@@ -789,6 +789,10 @@
   background-color: #434954;
 }
 
+.red-ui-projects-dialog-screen-create-type.red-ui-button.toggle.selected:not(.disabled):not(:disabled) {
+  color: #EDEDED !important;
+}
+
 .red-ui-projects-dialog-screen-start .red-ui-projects-dialog-screen-start-body p {
   color: #EDEDED;
 }
@@ -1355,14 +1359,16 @@
   background-color: #434954;
 }
 
-.ui-dialog-buttonset button.primary.disabled {
+.ui-dialog-buttonset button.primary.disabled,
+.ui-dialog-buttonset button.primary.ui-state-disabled {
   border-color: #2E333A;
   background-color: #434954;
 }
 
-.ui-dialog-buttonset button.primary.disabled,
-.ui-dialog-buttonset button.primary.ui-state-disabled {
-  border-color: #2E333A;
+.ui-dialog-buttonset button,
+.ui-dialog-buttonset button.secondary {
+  background-color: #434954;
+  color: #EDEDED !important;
 }
 
 .ui-dialog-buttonset button.selected:not(.disabled):not(:disabled) {
@@ -1583,6 +1589,7 @@ a.red-ui-button,
 button.red-ui-button {
   background-color: #434954;
   border-color: #2E333A;
+  color: #EDEDED !important;
 }
 
 a.editor-button:focus,
@@ -1595,8 +1602,13 @@ button.red-ui-button:focus {
 a.editor-button:not(.disabled):not(:disabled):active,
 button.editor-button:not(.disabled):not(:disabled):active,
 a.red-ui-button:not(.disabled):not(:disabled):active,
-button.red-ui-button:not(.disabled):not(:disabled):active {
+button.red-ui-button:not(.disabled):not(:disabled):active,
+a.editor-button:not(.disabled):not(:disabled):focus,
+button.editor-button:not(.disabled):not(:disabled):focus,
+a.red-ui-button:not(.disabled):not(:disabled):focus,
+button.red-ui-button:not(.disabled):not(:disabled):focus {
   background-color: #434954;
+  color: #888 !important;
 }
 
 a.editor-button.primary.disabled,
