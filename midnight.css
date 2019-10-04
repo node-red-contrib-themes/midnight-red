@@ -675,14 +675,20 @@
   background-color: #383C45;
 }
 
-.red-ui-notification,
-.red-ui-notification a {
+.red-ui-notification {
   background-color: #434954;
   color: #EDEDED;
 }
 
+.red-ui-notification a {
+  background-color: #434954;
+  color: #EDEDED;
+  text-decoration: underline;
+}
+
 .red-ui-notification a:hover {
   color: #EDEDED;
+  text-decoration: none;
 }
 
 .red-ui-palette-category {
