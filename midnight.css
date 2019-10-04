@@ -640,8 +640,13 @@
   background-color: #383C45;
 }
 
-.red-ui-notification {
+.red-ui-notification,
+.red-ui-notification a {
   background-color: #434954;
+  color: #EDEDED;
+}
+
+.red-ui-notification a:hover {
   color: #EDEDED;
 }
 
