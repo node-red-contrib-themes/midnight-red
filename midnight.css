@@ -717,7 +717,7 @@
 
 .red-ui-palette-node-config-unused {
   border-color: #2E333A;
-  background-color: #383C45;
+  background-color: #EDEDED;
 }
 
 .red-ui-palette-search {
@@ -1972,5 +1972,6 @@ table.red-ui-info-table tr.blank th {
 }
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-icon-container {
-  background-color: #434954;
+  background-color: #E8E8E8;
+  color: #666;
 }
