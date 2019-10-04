@@ -49,6 +49,22 @@
   border-color: #2E333A;
 }
 
+.nr-db-sb-group-list li {
+  border-color: #434954 !important;
+}
+
+.nr-db-sb-list-header,
+.nr-db-sb-tab-list-item {
+  background-color: #434954 !important;
+  color: #EDEDED !important;
+}
+
+.nr-db-sb-list-header:hover,
+.nr-db-sb-tab-list-item:hover {
+  background-color: #EEE !important;
+  color: #444 !important;
+}
+
 .red-ui-clipboard-dialog-box {
   border-color: #2E333A;
 }
@@ -380,6 +396,25 @@
 .red-ui-editor {
   background-color: #434954;
   color: #EDEDED;
+}
+
+.red-ui-editor a,
+.red-ui-editor-dialog a,
+.red-ui-menu a,
+.red-ui-popover a,
+.red-ui-typedInput-options a,
+.red-ui-icon-picker a {
+  color: #EDEDED;
+}
+
+.red-ui-editor a:hover,
+.red-ui-editor-dialog a:hover,
+.red-ui-menu a:hover,
+.red-ui-popover a:hover,
+.red-ui-typedInput-options a:hover,
+.red-ui-icon-picker a:hover {
+  color: #EDEDED;
+  text-decoration: none;
 }
 
 .red-ui-editor blockquote,
@@ -1674,6 +1709,7 @@ button.editor-button.toggle.selected:not(.disabled):not(:disabled),
 a.red-ui-button.toggle.selected:not(.disabled):not(:disabled),
 button.red-ui-button.toggle.selected:not(.disabled):not(:disabled) {
   background-color: #434954;
+  color: #EDEDED !important;
 }
 
 a.red-ui-debug-msg-name {
