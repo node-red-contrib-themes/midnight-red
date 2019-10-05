@@ -28,7 +28,7 @@ Install this package.
 npm install node-red-contrib-theme-midnight-red
 ```
 
-Add the folowing to the `editorTheme` section of your `settings.js`.
+Add the following to the `editorTheme` section of your `settings.js`.
 
 ```js
 editorTheme: {
