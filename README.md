@@ -8,10 +8,10 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
-**THIS IS A LEGACY VERSION FOR NODE-RED 0.20.X**
+**THIS IS A LEGACY VERSION FOR NODE-RED 0.20.X.**
 
 **FOR THE CURRENT PRODUCTION VERSION CHECK THE [`LATEST`][latest-tag] TAG ON NPM
-OR THE [`MASTER`][master-branch] BRANCH ON GITHUB**
+OR THE [`MASTER`][master-branch] BRANCH ON GITHUB.**
 
 ## About
 
