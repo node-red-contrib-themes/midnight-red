@@ -10,11 +10,13 @@
 
 **THIS IS A LEGACY VERSION FOR NODE-RED 0.20.X**
 
-**FOR THE CURRENT PRODUCTION VERSION CHECK THE [`LATEST`][latest-tag] TAG ON NPM OR THE [`MASTER`][master-branch] BRANCH ON GITHUB**
+**FOR THE CURRENT PRODUCTION VERSION CHECK THE [`LATEST`][latest-tag] TAG ON NPM
+OR THE [`MASTER`][master-branch] BRANCH ON GITHUB**
 
 ## About
 
-A dark theme for [Node-RED][node-red] based on the [midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
+A dark theme for [Node-RED][node-red] based on the
+[midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
 
 ![screenshot](https://raw.githubusercontent.com/bonanitech/node-red-contrib-theme-midnight-red/legacy/images/screenshot.png)
 
@@ -43,9 +45,11 @@ editorTheme: {
 }
 ```
 
-Replace `<HOME>` with the home directory of the user running Node-RED. For example, `/home/username`.
+Replace `<HOME>` with the home directory of the user running Node-RED. For
+example, `/home/username`.
 
-For more details on the configuration please refer to the [Node-RED official documentation][node-red-doc].
+For more details on the configuration please refer to the
+[Node-RED official documentation][node-red-doc].
 
 Restart Node-RED.
 
