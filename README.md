@@ -17,6 +17,12 @@ A dark theme for [Node-RED][node-red] based on the
 
 ## Install
 
+Change to the Node-RED `userDir` directory, usually `~/.node-red`.
+
+```shell
+cd ~/.node-red
+```
+
 Install this package.
 
 ```shell
@@ -61,7 +67,7 @@ Uninstall this package.
 npm uninstall node-red-contrib-theme-midnight-red
 ```
 
-Then follow the install instructions above.
+Then follow the [install instructions][install-instructions] above.
 
 ## Legacy Version
 
@@ -102,6 +108,7 @@ SOFTWARE.
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [ha-midnight-theme]: https://community.home-assistant.io/t/midnight-theme/28598
 [home-assistant]: https://home-assistant.io
+[install-instructions]: #install
 [issue]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [legacy-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/legacy
