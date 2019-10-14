@@ -572,6 +572,10 @@
   stroke: #434954;
 }
 
+.red-ui-flow-node {
+  stroke: #434954;
+}
+
 .red-ui-flow-node-label-white {
   fill: #434954 !important;
 }
