@@ -49,26 +49,6 @@ Restart Node-RED.
 
 Enjoy!
 
-## Upgrading from Node-RED 0.20.X
-
-If you are upgrading from Node-RED 0.20.X, it's suggested that you first
-uninstall this package to remove the files from its older version since they are
-not compatible with Node-RED 1.0.
-
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
-
-```shell
-cd ~/.node-red
-```
-
-Uninstall this package.
-
-```shell
-npm uninstall node-red-contrib-theme-midnight-red
-```
-
-Then follow the [install instructions][install-instructions] above.
-
 ## Legacy Version
 
 For the legacy version (compatible with Node-RED 0.20.X) check the
