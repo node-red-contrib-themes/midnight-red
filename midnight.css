@@ -10,10 +10,6 @@
   background-color: #3399FF;
 }
 
-.ace-tomorrow {
-  background-color: #434954;
-}
-
 .ace-tomorrow .ace_constant.ace_character,
 .ace-tomorrow .ace_constant.ace_language,
 .ace-tomorrow .ace_constant.ace_numeric,
@@ -25,7 +21,8 @@
 
 .ace-tomorrow .ace_entity.ace_name.ace_tag,
 .ace-tomorrow .ace_entity.ace_other.ace_attribute-name,
-.ace-tomorrow .ace_meta.ace_tag, .ace-tomorrow .ace_string.ace_regexp,
+.ace-tomorrow .ace_meta.ace_tag,
+.ace-tomorrow .ace_string.ace_regexp,
 .ace-tomorrow .ace_variable {
   color: #DD66DD;
 }
@@ -34,6 +31,10 @@
 .ace-tomorrow .ace_markup.ace_heading,
 .ace-tomorrow .ace_string {
   color: orange;
+}
+
+.ace-tomorrow {
+  background-color: #434954;
 }
 
 .editor-button:hover {
@@ -147,11 +148,11 @@
   color: orange;
 }
 
-.red-ui-debug-msg-type-meta {
+.red-ui-debug-msg-type-meta .red-ui-debug-msg-object-type-header {
   color: #BBB;
 }
 
-.red-ui-debug-msg-type-meta .red-ui-debug-msg-object-type-header {
+.red-ui-debug-msg-type-meta {
   color: #BBB;
 }
 
@@ -329,17 +330,6 @@
   border-top-color: #2E333A;
 }
 
-.red-ui-editor .ace_read-only .ace_scroller,
-.red-ui-editor-dialog .ace_read-only .ace_scroller {
-  background-color: #434954;
-  color: #EDEDED;
-}
-
-.red-ui-editor .ace_gutter,
-.red-ui-editor-dialog .ace_gutter {
-  background-color: #383C45;
-}
-
 .red-ui-editor .ace_gutter-active-line,
 .red-ui-editor-dialog .ace_gutter-active-line {
   background-color: #383C45;
@@ -350,9 +340,20 @@
   color: #EDEDED;
 }
 
+.red-ui-editor .ace_gutter,
+.red-ui-editor-dialog .ace_gutter {
+  background-color: #383C45;
+}
+
 .red-ui-editor .ace_marker-layer .ace_active-line,
 .red-ui-editor-dialog .ace_marker-layer .ace_active-line {
   background-color: #434954;
+}
+
+.red-ui-editor .ace_read-only .ace_scroller,
+.red-ui-editor-dialog .ace_read-only .ace_scroller {
+  background-color: #434954;
+  color: #EDEDED;
 }
 
 .red-ui-editor .ace_scroller,
@@ -735,10 +736,6 @@
   border-bottom-color: #2E333A;
 }
 
-.red-ui-searchBox-container input.red-ui-searchBox-input{
-  background-color: #434954;
-}
-
 .red-ui-panels-separator {
   border-top-color: #2E333A;
   border-bottom-color: #2E333A;
@@ -892,6 +889,10 @@
 
 .red-ui-searchBox-container .red-ui-searchBox-resultCount {
   background-color: #383C45;
+}
+
+.red-ui-searchBox-container input.red-ui-searchBox-input {
+  background-color: #434954;
 }
 
 .red-ui-settings-tabs-container {
@@ -1289,16 +1290,16 @@
   color: #555;
 }
 
-.red-ui-typedInput-container button.red-ui-typedInput-type-select:not(.disabled):hover,
-.red-ui-typedInput-container button.red-ui-typedInput-option-expand:not(.disabled):hover,
-.red-ui-typedInput-container button.red-ui-typedInput-option-trigger:not(.disabled):hover {
-  background-color: #DDD;
-}
-
 .red-ui-typedInput-container button.red-ui-typedInput-type-select:not(.disabled):active,
 .red-ui-typedInput-container button.red-ui-typedInput-option-expand:not(.disabled):active,
 .red-ui-typedInput-container button.red-ui-typedInput-option-trigger:not(.disabled):active {
   background-color: #434954;
+}
+
+.red-ui-typedInput-container button.red-ui-typedInput-type-select:not(.disabled):hover,
+.red-ui-typedInput-container button.red-ui-typedInput-option-expand:not(.disabled):hover,
+.red-ui-typedInput-container button.red-ui-typedInput-option-trigger:not(.disabled):hover {
+  background-color: #DDD;
 }
 
 .red-ui-typedInput-options {
@@ -1397,6 +1398,12 @@
   background-color: #434954;
 }
 
+.ui-dialog-buttonset button,
+.ui-dialog-buttonset button.secondary {
+  background-color: #434954;
+  color: #EDEDED !important;
+}
+
 .ui-dialog-buttonset button:focus {
   outline-color: #2E333A;
 }
@@ -1409,12 +1416,6 @@
 .ui-dialog-buttonset button.primary.ui-state-disabled {
   border-color: #2E333A;
   background-color: #434954;
-}
-
-.ui-dialog-buttonset button,
-.ui-dialog-buttonset button.secondary {
-  background-color: #434954;
-  color: #EDEDED !important;
 }
 
 .ui-dialog-buttonset button.selected:not(.disabled):not(:disabled) {
@@ -1954,12 +1955,12 @@ label.red-ui-diff-selectbox {
   border-left-color: #2E333A;
 }
 
-li.selected .red-ui-search-result {
-  background-color: #434954;
-}
-
 li:not(.selected) a:hover .red-ui-search-result-action {
   color: #444;
+}
+
+li.selected .red-ui-search-result {
+  background-color: #434954;
 }
 
 pre {
