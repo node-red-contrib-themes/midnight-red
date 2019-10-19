@@ -870,6 +870,7 @@
   border-right-color: #434954;
 }
 
+.red-ui-search-result-action,
 .red-ui-search-result-node-label {
   color: #EDEDED;
 }
@@ -1955,6 +1956,10 @@ label.red-ui-diff-selectbox {
 
 li.selected .red-ui-search-result {
   background-color: #434954;
+}
+
+li:not(.selected) a:hover .red-ui-search-result-action {
+  color: #444;
 }
 
 pre {
