@@ -1329,6 +1329,15 @@
   stroke: #383C45;
 }
 
+.red-ui-workspace-disabled .red-ui-flow-link-line,
+.red-ui-workspace-disabled .red-ui-flow-node-icon {
+  opacity: 0.5;
+}
+
+.red-ui-workspace-disabled .red-ui-flow-port {
+  opacity: 0.75;
+}
+
 .sidebar-footer-button {
   background-color: #434954;
   border-color: #2E333A;
