@@ -824,7 +824,7 @@
 }
 
 .red-ui-projects-dialog-project-list-entry.selectable:hover:not(.selected) {
-  color: #EDEDED;
+  color: #444;
 }
 
 .red-ui-projects-dialog-project-list-entry.selected {
