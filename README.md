@@ -79,6 +79,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+## Acknowledgments
+
+- [Sebastian Raff][hobbyquaker] - for the inspiration and help in creating the
+NPM package for this theme.
+- [Ristomatti Airo][ristomatti] - for his amazing theme on which I based major
+readability improvements.
+
 [bonanitech]: https://github.com/bonanitech
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/mbonani
@@ -87,6 +94,7 @@ SOFTWARE.
 [contributors]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/graphs/contributors
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [ha-midnight-theme]: https://community.home-assistant.io/t/midnight-theme/28598
+[hobbyquaker]: https://github.com/hobbyquaker
 [home-assistant]: https://home-assistant.io
 [install-instructions]: #install
 [issue]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues
@@ -97,3 +105,4 @@ SOFTWARE.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
+[ristomatti]: https://github.com/ristomatti
