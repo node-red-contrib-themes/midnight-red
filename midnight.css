@@ -49,6 +49,10 @@
   color: #6c71c4;
 }
 
+.ace-tomorrow .ace_indent-guide {
+  filter: brightness(0.25);
+}
+
 .ace-tomorrow .ace_keyword,
 .ace-tomorrow .ace_meta,
 .ace-tomorrow .ace_storage,
@@ -60,6 +64,10 @@
 
 .ace-tomorrow .ace_keyword.ace_operator {
   color: #93a1a1;
+}
+
+.ace-tomorrow .ace_print-margin {
+  background: #333;
 }
 
 .ace-tomorrow {
