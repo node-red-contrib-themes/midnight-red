@@ -2,12 +2,23 @@
   midnight-red - https://github.com/bonanitech/node-red-contrib-theme-midnight-red
 */
 
+::selection,
 ::-moz-selection {
   background-color: #3399FF;
 }
 
-::selection {
-  background-color: #3399FF;
+.ace_content {
+  font-family: "Fira Code", "Menlo", monospace;
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+  font-feature-settings: "liga" on, "calt" on;
+  font-variant-ligatures: normal;
+  background-color: #141414;
+  color: #93A1A1
+}
+
+.ace-tomorrow .ace_comment {
+  font-style: italic;
+  color: #586e75
 }
 
 .ace-tomorrow .ace_constant.ace_character,
@@ -16,7 +27,12 @@
 .ace-tomorrow .ace_keyword.ace_other.ace_unit,
 .ace-tomorrow .ace_support.ace_constant,
 .ace-tomorrow .ace_variable.ace_parameter {
-  color: #2C92D5;
+  color: #cb4b16;
+}
+
+.ace-tomorrow .ace_entity.ace_name.ace_function,
+.ace-tomorrow .ace_support.ace_function {
+  color: #b58900;
 }
 
 .ace-tomorrow .ace_entity.ace_name.ace_tag,
@@ -24,13 +40,26 @@
 .ace-tomorrow .ace_meta.ace_tag,
 .ace-tomorrow .ace_string.ace_regexp,
 .ace-tomorrow .ace_variable {
-  color: #DD66DD;
+  color: #93a1a1;
 }
 
 .ace-tomorrow .ace_heading,
 .ace-tomorrow .ace_markup.ace_heading,
 .ace-tomorrow .ace_string {
-  color: orange;
+  color: #6c71c4;
+}
+
+.ace-tomorrow .ace_keyword,
+.ace-tomorrow .ace_meta,
+.ace-tomorrow .ace_storage,
+.ace-tomorrow .ace_storage.ace_type,
+.ace-tomorrow .ace_support.ace_type {
+  color: #93a1a1;
+  font-weight: bold;
+}
+
+.ace-tomorrow .ace_keyword.ace_operator {
+  color: #93a1a1;
 }
 
 .ace-tomorrow {
@@ -79,7 +108,7 @@
 }
 
 .red-ui-clipboard-import-error pre {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-component-footer {
@@ -111,7 +140,7 @@
 }
 
 .red-ui-debug-msg-element {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-debug-msg-level-log {
@@ -121,11 +150,11 @@
 
 .red-ui-debug-msg-meta {
   background-color: #434954;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-debug-msg-name {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-debug-msg-object-key {
@@ -165,7 +194,7 @@
 }
 
 .red-ui-debug-msg-type-string {
-  color: orange;
+  color: #DDD;
 }
 
 .red-ui-debug-window {
@@ -189,7 +218,7 @@
 
 .red-ui-diff-list-flow-empty .red-ui-diff-list-flow-title:hover {
   background-color: #434954;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-diff-list-flow-title:hover {
@@ -207,7 +236,7 @@
 }
 
 .red-ui-diff-list-node-description {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-diff-list-node-header:hover,
@@ -221,7 +250,7 @@
 }
 
 .red-ui-diff-list-node-properties {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-diff-list-node-properties tr:hover td .red-ui-diff-list-node-description,
@@ -249,12 +278,12 @@
 .red-ui-diff-panel-headers div {
   background-color: #434954;
   border-color: #2E333A;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-diff-panel-headers div:last-child {
   border-right-color: #2E333A;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-diff-text table.red-ui-diff-text-content {
@@ -287,12 +316,12 @@
 
 .red-ui-diff-text table.red-ui-diff-text-content tr.red-ui-diff-text-commit-header td {
   background-color: #383C45;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-diff-text table.red-ui-diff-text-content tr.red-ui-diff-text-file-header td {
   background-color: #383C45;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-diff-text table.red-ui-diff-text-content tr.red-ui-diff-text-header>td:not(.red-ui-diff-flow-diff) {
@@ -332,47 +361,52 @@
 
 .red-ui-editor .ace_gutter-active-line,
 .red-ui-editor-dialog .ace_gutter-active-line {
-  background-color: #383C45;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .red-ui-editor .ace_gutter-cell,
 .red-ui-editor-dialog .ace_gutter-cell {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-editor .ace_gutter,
 .red-ui-editor-dialog .ace_gutter {
-  background-color: #383C45;
+  background-color: #2E333A;
 }
 
 .red-ui-editor .ace_marker-layer .ace_active-line,
 .red-ui-editor-dialog .ace_marker-layer .ace_active-line {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.red-ui-editor .ace_marker-layer .ace_selection,
+.red-ui-editor-dialog .ace_marker-layer .ace_selection {
   background-color: #434954;
 }
 
 .red-ui-editor .ace_read-only .ace_scroller,
 .red-ui-editor-dialog .ace_read-only .ace_scroller,
 .red-ui-editor #red-ui-event-log-editor .ace_scroller {
-  background-color: #434954;
-  color: #EDEDED;
+  background-color: #2E333A;
+  color: #DDD;
 }
 
 .red-ui-editor .ace_scroller,
 .red-ui-editor-dialog .ace_scroller {
-  background-color: #434954;
-  color: #EDEDED;
+  background-color: #2E333A;
+  color: #DDD;
 }
 
 .red-ui-editor .form-row,
 .red-ui-editor-dialog .form-row {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-editor .form-tips,
 .red-ui-editor-dialog .form-tips {
   background-color: #434954;
   border-color: #2E333A;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-editor .input-append .add-on,
@@ -397,7 +431,7 @@
 
 .red-ui-editor {
   background-color: #434954;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-editor a,
@@ -406,7 +440,7 @@
 .red-ui-popover a,
 .red-ui-typedInput-options a,
 .red-ui-icon-picker a {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-editor a:hover,
@@ -415,7 +449,7 @@
 .red-ui-popover a:hover,
 .red-ui-typedInput-options a:hover,
 .red-ui-icon-picker a:hover {
-  color: #EDEDED;
+  color: #DDD;
   text-decoration: none;
 }
 
@@ -426,6 +460,20 @@
 .red-ui-typedInput-options blockquote,
 .red-ui-icon-picker blockquote {
   border-left-color: #2E333A;
+}
+
+.red-ui-editor code,
+.red-ui-editor-dialog code,
+.red-ui-menu code,
+.red-ui-popover code,
+.red-ui-typedInput-options code,
+.red-ui-icon-picker code {
+  background-color: #2E333A;
+  color: #DDD;
+  font-family: "Fira Code", "Menlo", monospace;
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+  font-feature-settings: "liga" on, "calt" on;
+  font-size: 14px;
 }
 
 .red-ui-editor hr,
@@ -503,7 +551,7 @@
 .red-ui-editor-dialog input[type="color"],
 .red-ui-editor-dialog div[contenteditable="true"],
 .red-ui-editor-dialog .uneditable-input {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-editor select,
@@ -557,8 +605,12 @@
   background-color: #434954;
 }
 
+.red-ui-editor-type-json-editor .red-ui-treeList-label:hover, .red-ui-editor-type-json-editor .red-ui-treeList-label:hover .red-ui-treeList-sublabel-text {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .red-ui-editor-type-json-editor-item-gutter {
-  background-color: #383C45;
+  background-color: #2E333A;
 }
 
 .red-ui-editor-type-markdown-panel-preview {
@@ -596,6 +648,7 @@
 
 .red-ui-flow-node-status-ring-red {
   fill: #434954;
+  stroke: #DC322F;
 }
 
 .red-ui-flow-node-status-ring-yellow {
@@ -603,7 +656,7 @@
 }
 
 .red-ui-help .red-ui-help-info-header {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-help dl.message-properties {
@@ -611,7 +664,7 @@
 }
 
 .red-ui-help dl.message-properties>dt .property-type {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-help dl.message-properties>dt {
@@ -664,7 +717,7 @@
 
 .red-ui-menu-dropdown>li>a,
 .red-ui-menu-dropdown>li>a:focus {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #434954;
 }
 
@@ -683,17 +736,17 @@
 
 .red-ui-notification {
   background-color: #434954;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-notification a {
   background-color: #434954;
-  color: #EDEDED;
+  color: #DDD;
   text-decoration: underline;
 }
 
 .red-ui-notification a:hover {
-  color: #EDEDED;
+  color: #DDD;
   text-decoration: none;
 }
 
@@ -707,7 +760,7 @@
 
 .red-ui-palette-header {
   background-color: #383C45;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-palette-header:hover {
@@ -715,7 +768,7 @@
 }
 
 .red-ui-palette-module-name {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-palette-node {
@@ -724,12 +777,12 @@
 
 .red-ui-palette-node-config {
   background-color: #383C45;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-palette-node-config-unused {
   border-color: #2E333A;
-  background-color: #EDEDED;
+  background-color: #DDD;
 }
 
 .red-ui-palette-search {
@@ -777,7 +830,7 @@
 }
 
 .red-ui-projects-dialog-file-list-entry .red-ui-projects-dialog-file-list-entry-folder .fa-angle-right {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-projects-dialog-file-list-entry {
@@ -812,14 +865,14 @@
 }
 
 .red-ui-projects-dialog-project-list-entry {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #434954;
   border-left-color: #434954;
   border-right-color: #434954;
 }
 
 .red-ui-projects-dialog-project-list-entry.projects-list-entry-current:not(.selectable) {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #434954;
 }
 
@@ -828,7 +881,7 @@
 }
 
 .red-ui-projects-dialog-project-list-entry.selected {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #434954;
 }
 
@@ -837,15 +890,15 @@
 }
 
 .red-ui-projects-dialog-screen-start .red-ui-projects-dialog-screen-start-body p {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-projects-dialog-screen-start .red-ui-projects-dialog-screen-start-hero {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-projects-edit-form form .form-row label {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-projects-file-listing-container>.red-ui-editableList>.red-ui-editableList-border {
@@ -862,7 +915,7 @@
 }
 
 .red-ui-search-result {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #434954;
   border-left-color: #434954;
   border-right-color: #434954;
@@ -870,7 +923,7 @@
 
 .red-ui-search-result-action,
 .red-ui-search-result-node-label {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-search-result:hover .red-ui-search-result-node-flow,
@@ -881,11 +934,11 @@
 }
 
 .red-ui-search-results-container .red-ui-editableList-container {
-  background-color: #383C45;
+  background-color: #434954;
 }
 
 .red-ui-search-results-container {
-  background-color: #383C45;
+  background-color: #434954;
 }
 
 .red-ui-searchBox-container .red-ui-searchBox-resultCount {
@@ -906,13 +959,13 @@
 
 .red-ui-sidebar-control-left {
   border-color: #2E333A;
-  background-color: #EDEDED;
+  background-color: #DDD;
   color: #999;
 }
 
 .red-ui-sidebar-control-right {
   border-color: #2E333A;
-  background-color: #EDEDED;
+  background-color: #DDD;
   color: #999;
 }
 
@@ -933,7 +986,7 @@
 }
 
 .red-ui-sidebar-vc-branch-list-entry {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #434954;
   border-left-color: #2E333A;
   border-right-color: #2E333A;
@@ -944,7 +997,7 @@
 }
 
 .red-ui-sidebar-vc-change-header {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #434954;
   border-top-color: #2E333A;
   border-bottom-color: #2E333A;
@@ -967,11 +1020,11 @@
 }
 
 .red-ui-sidebar-vc-commit-subject {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-sidebar-vc-repo-toolbar {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #383C45;
 }
 
@@ -991,7 +1044,7 @@
   border-left-color: #2E333A;
   border-right-color: #2E333A;
   border-bottom-color: #2E333A;
-  color: #EDEDED;
+  color: #DDD;
   background-color: #383C45;
 }
 
@@ -1058,7 +1111,7 @@
 }
 
 .red-ui-tab-link-buttons a:not(.single).selected:not(.disabled):not(:disabled) {
-  background-color: #EDEDED;
+  background-color: #DDD;
 }
 
 .red-ui-tab-link-buttons a.primary.disabled,
@@ -1096,7 +1149,7 @@
 }
 
 .red-ui-tabs ul li a.red-ui-tab-label {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-tabs ul li.active {
@@ -1105,7 +1158,7 @@
 }
 
 .red-ui-tabs ul li.active a {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-tabs ul li.active a.red-ui-tab-close {
@@ -1189,14 +1242,14 @@
 }
 
 .red-ui-tray-titlebar {
-  color: #EDEDED;
+  color: #DDD;
   border-bottom-color: #2E333A;
 }
 
 .red-ui-tray-toolbar button {
-  background-color: #F3F3F3;
+  background-color: #434954;
   border-color: #2E333A;
-  color: #444 !important;
+  color: #EDEDED !important;
 }
 
 .red-ui-tray-toolbar button:focus {
@@ -1244,18 +1297,18 @@
 }
 
 .red-ui-treeList-label {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-treeList-label:focus,
 .red-ui-treeList-label:focus .red-ui-treeList-sublabel-text {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-treeList-label.selected,
 .red-ui-treeList-label.selected .red-ui-treeList-sublabel-text {
   background-color: #434954;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-treeList-sublabel-text {
@@ -1281,7 +1334,7 @@
 
 .red-ui-typedInput-container button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label {
   background-color: #434954;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .red-ui-typedInput-container button.red-ui-typedInput-type-select,
@@ -1327,6 +1380,7 @@
 
 .red-ui-workspace-chart-grid line {
   stroke: #383C45;
+  stroke-width: 0.5px;
 }
 
 .red-ui-workspace-disabled .red-ui-flow-link-line,
@@ -1384,7 +1438,7 @@
 
 .sidebar-header,
 .red-ui-sidebar-header {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #383C45;
   border-bottom-color: #2E333A;
 }
@@ -1436,9 +1490,18 @@
   border-color: #2E333A;
 }
 
+.ui-spinner a.ui-spinner-button {
+  background-color: #383C45;
+}
+
+.ui-spinner a.ui-spinner-button:not(:last-child) {
+  border-bottom-color: #2E333A;
+  border-bottom-style: solid;
+}
+
 .ui-spinner input {
   background-color: #434954;
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .ui-state-active,
@@ -1479,11 +1542,12 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .ui-widget-content {
+  background-color: #434954;
   border-color: #2E333A;
 }
 
 .ui-widget-header {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 .ui-widget.ui-widget-content {
@@ -1545,7 +1609,7 @@ html .ui-button.ui-state-disabled:active {
 
 #red-ui-project-settings-tab-deps .red-ui-palette-module-unknown {
   border-color: #2E333A;
-  background-color: #383C45;
+  background-color: #434954;
 }
 
 #red-ui-settings-tab-keyboard .keyboard-shortcut-entry-expanded {
@@ -1735,11 +1799,11 @@ button.red-ui-button.toggle.selected:not(.disabled):not(:disabled) {
 }
 
 a.red-ui-debug-msg-name {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 a.red-ui-debug-msg-name:hover {
-  color: #EDEDED;
+  color: #DDD;
   text-decoration: underline;
 }
 
@@ -1950,11 +2014,11 @@ body {
 }
 
 code {
-  background-color: #EDEDED;
+  background-color: #DDD;
 }
 
 input#node-dialog-login-submit {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 input#node-dialog-login-submit:hover {
@@ -1974,7 +2038,7 @@ li.selected .red-ui-search-result {
 }
 
 pre {
-  background-color: #EDEDED;
+  background-color: #DDD;
 }
 
 table.red-ui-info-table tr:not(.blank) {
@@ -1983,26 +2047,26 @@ table.red-ui-info-table tr:not(.blank) {
 }
 
 table.red-ui-info-table tr:not(.blank) td:first-child {
-  color: #EDEDED;
+  color: #DDD;
   background-color: #383C45;
   border-right-color: #2E333A;
 }
 
 table.red-ui-info-table tr:not(.blank) td:last-child {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 table.red-ui-info-table tr.blank a {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 table.red-ui-info-table tr.blank a:hover,
 table.red-ui-info-table tr.blank a:focus {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 table.red-ui-info-table tr.blank th {
-  color: #EDEDED;
+  color: #DDD;
 }
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-icon-container {
