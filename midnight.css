@@ -1518,8 +1518,8 @@
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-  border-color: #2E333A;
-  background-color: #434954;
+  background-color: #F3F3F3;
+  color: #222;
 }
 
 .ui-state-default,
@@ -1550,7 +1550,6 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .ui-widget-content {
-  background-color: #434954;
   border-color: #2E333A;
 }
 
