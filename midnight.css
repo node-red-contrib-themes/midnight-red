@@ -1451,6 +1451,14 @@
   border-bottom-color: #2E333A;
 }
 
+.ui-accordion .ui-accordion-content {
+  background-color: #434954;
+}
+
+.ui-accordion .ui-accordion-header {
+  color: #DDD;
+}
+
 .ui-dialog .ui-dialog-buttonpane.ui-widget-content {
   background-color: #383C45;
 }
