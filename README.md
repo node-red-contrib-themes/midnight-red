@@ -55,6 +55,13 @@ For the legacy version (compatible with Node-RED 0.20.X) check the
 [`LEGACY`][legacy-tag] tag on NPM or the [`LEGACY`][legacy-branch] branch on
 GitHub.
 
+## Acknowledgments
+
+- [Sebastian Raff][hobbyquaker] - for the inspiration and help in creating the
+NPM package for this theme.
+- [Ristomatti Airo][ristomatti] - for his amazing theme on which major
+readability improvements were based.
+
 ## License
 
 MIT License
@@ -78,13 +85,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Acknowledgments
-
-- [Sebastian Raff][hobbyquaker] - for the inspiration and help in creating the
-NPM package for this theme.
-- [Ristomatti Airo][ristomatti] - for his amazing theme on which I based major
-readability improvements.
 
 [bonanitech]: https://github.com/bonanitech
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
