@@ -1004,6 +1004,10 @@
   border-right-color: #2E333A;
 }
 
+.red-ui-sidebar-vc-branch-list-entry:not(.input-error):hover {
+  color: #666;
+}
+
 .red-ui-sidebar-vc-change-entry.red-ui-help-info-node {
   background-color: #434954;
 }
