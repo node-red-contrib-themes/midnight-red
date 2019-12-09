@@ -905,6 +905,10 @@
   color: #DDD;
 }
 
+.red-ui-projects-dialog-ssh-key-list .red-ui-projects-dialog-ssh-key-header:hover {
+  color: #666;
+}
+
 .red-ui-projects-edit-form form .form-row label {
   color: #DDD;
 }
