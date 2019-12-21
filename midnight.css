@@ -1614,6 +1614,10 @@ html .ui-button.ui-state-disabled:active {
   background-color: #383C45;
 }
 
+#red-ui-palette-editor .red-ui-palette-module-more a {
+  color: #888;
+}
+
 #red-ui-palette-editor .red-ui-palette-module-set {
   border-color: #2E333A;
 }
