@@ -49,6 +49,22 @@ Restart Node-RED.
 
 Enjoy!
 
+## Update
+
+Change to the Node-RED `userDir` directory, usually `~/.node-red`.
+
+```shell
+cd ~/.node-red
+```
+
+Update this package.
+
+```shell
+npm update node-red-contrib-theme-midnight-red
+```
+
+Reload the Node-RED page on the web browser.
+
 ## Legacy Version
 
 For the legacy version (compatible with Node-RED 0.20.X) check the
