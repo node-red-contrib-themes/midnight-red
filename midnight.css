@@ -261,9 +261,13 @@
   color: #DDD;
 }
 
-.red-ui-diff-list-node-properties tr:hover td .red-ui-diff-list-node-description,
-.red-ui-diff-list-node-properties tr:hover td .red-ui-diff-list-wires,
-.red-ui-diff-list-node-properties tr:hover td.red-ui-diff-list-cell-label {
+.red-ui-diff-list-node-properties tr td.red-ui-diff-list-cell.red-ui-diff-list-node-remote.red-ui-diff-status-changed .red-ui-debug-msg-element,
+.red-ui-diff-list-node-properties tr .red-ui-debug-msg-element.red-ui-debug-msg-top-level,
+.red-ui-diff-list-node-properties tr:hover td .red-ui-debug-msg-element,
+.red-ui-diff-list-node-properties tr:hover td .red-ui-debug-msg-type-string,
+.red-ui-diff-list-node-properties tr:hover td.red-ui-diff-list-cell-label,
+.red-ui-diff-list-node-properties tr:hover td .red-ui-diff-list-node-description
+.red-ui-diff-list-node-properties tr:hover td .red-ui-diff-list-wires {
   color: #444;
 }
 
