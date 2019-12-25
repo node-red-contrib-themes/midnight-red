@@ -80,27 +80,7 @@ readability improvements were based.
 
 ## License
 
-MIT License
-
-Copyright (c) 2019 Mauricio Bonani
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+[MIT][license]
 
 [bonanitech]: https://github.com/bonanitech
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
@@ -117,6 +97,7 @@ SOFTWARE.
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [legacy-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/legacy
 [legacy-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/legacy
+[license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/master/LICENSE.md
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
