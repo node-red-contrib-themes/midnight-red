@@ -1569,7 +1569,8 @@ html .ui-button.ui-state-disabled:active {
   border-color: #2E333A;
 }
 
-.ui-widget-content {
+.ui-widget-content,
+.ui-widget.ui-widget-content {
   border-color: #2E333A;
 }
 
