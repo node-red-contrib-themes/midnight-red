@@ -6,6 +6,8 @@
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
+![NPM Shield][npm-shield]
+
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
 ## About
@@ -102,5 +104,6 @@ readability improvements were based.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
+[npm-shield]: https://nodei.co/npm/node-red-contrib-theme-midnight-red.png
 [ristomatti]: https://github.com/ristomatti
 [solarized-dark-gray-theme]: https://github.com/ristomatti/node-red-contrib-theme-solarized-dark-grey
