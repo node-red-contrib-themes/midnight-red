@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-theme-midnight-red",
-  "version": "0.2.17",
+  "version": "0.2.18",
   "description": "A gorgeous dark theme for Node-RED",
   "repository": {
     "type": "git",
