@@ -97,7 +97,7 @@ readability improvements were based.
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [legacy-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/legacy
 [legacy-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/legacy
-[license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/master/LICENSE.md
+[license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/master/LICENSE
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
