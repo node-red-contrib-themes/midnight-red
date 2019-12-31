@@ -1570,6 +1570,7 @@ html .ui-button.ui-state-disabled:active {
 
 .ui-widget-content,
 .ui-widget.ui-widget-content {
+  background-color: #434954;
   border-color: #2E333A;
 }
 
