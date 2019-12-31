@@ -75,7 +75,7 @@ GitHub.
 
 - [Sebastian Raff][hobbyquaker] - for the inspiration and help in creating the
 NPM package for this theme.
-- [Ristomatti Airo][ristomatti] - for his amazing theme on which major
+- [Ristomatti Airo][ristomatti] - for his amazing [theme][solarized-dark-gray-theme] on which major
 readability improvements were based.
 
 ## License
@@ -103,3 +103,4 @@ readability improvements were based.
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
 [ristomatti]: https://github.com/ristomatti
+[solarized-dark-gray-theme]: https://github.com/ristomatti/node-red-contrib-theme-solarized-dark-grey
