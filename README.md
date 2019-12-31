@@ -71,7 +71,7 @@ Enjoy!
 [issue]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [latest-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/latest
-[license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/legacy/LICENSE.md
+[license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/legacy/LICENSE
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge
 [master-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/master
