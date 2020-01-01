@@ -2,7 +2,6 @@
 
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE)
-
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
@@ -62,18 +61,18 @@ Enjoy!
 [bonanitech]: https://github.com/bonanitech
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/mbonani
-[commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
+[commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg
 [commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/legacy
 [contributors]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/graphs/contributors
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [ha-midnight-theme]: https://community.home-assistant.io/t/midnight-theme/28598
 [home-assistant]: https://home-assistant.io
 [issue]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues
-[last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
+[last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg
 [latest-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/latest
 [license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/legacy/LICENSE
-[license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [master-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/master
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
