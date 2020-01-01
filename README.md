@@ -73,7 +73,7 @@ Enjoy!
 [latest-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/latest
 [license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/legacy/LICENSE
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg?style=for-the-badge
 [master-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/master
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
