@@ -18,6 +18,9 @@
     "type": "Buy me a coffee",
     "url": "https://www.buymeacoffee.com/mbonani"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues"
