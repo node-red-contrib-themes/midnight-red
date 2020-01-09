@@ -1595,6 +1595,10 @@ html .ui-button.ui-state-disabled:active {
   border-color: #2E333A;
 }
 
+#integrationAlert a {
+  color: #222;
+}
+
 #red-ui-clipboard-dialog-export-tab-library-browser {
   border-bottom-color: #2E333A;
 }
