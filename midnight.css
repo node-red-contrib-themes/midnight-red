@@ -511,6 +511,10 @@
   background-color: #434954;
 }
 
+.red-ui-editor select[disabled] {
+  border-color: #2E333A;
+}
+
 .red-ui-editor legend,
 .red-ui-editor-dialog legend {
   border-bottom-color: #2E333A;
