@@ -1513,6 +1513,10 @@
   background-color: #434954;
 }
 
+.ui-menu-item .ui-menu-item-wrapper {
+  color: #DDD
+}
+
 .ui-spinner {
   border-color: #2E333A;
 }
