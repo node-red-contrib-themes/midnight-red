@@ -812,6 +812,10 @@
   border-right-color: #2E333A;
 }
 
+.red-ui-popover-panel {
+  border-color: #2E333A;
+}
+
 .red-ui-projects-branch-list .red-ui-editableList .red-ui-editableList-container li {
   background-color: #434954;
 }
