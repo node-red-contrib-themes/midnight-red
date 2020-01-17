@@ -66,12 +66,6 @@ npm update node-red-contrib-theme-midnight-red
 
 Reload the Node-RED page on the web browser.
 
-## Legacy Version
-
-For the legacy version (compatible with Node-RED 0.20.X) check the
-[`LEGACY`][legacy-tag] tag on NPM or the [`LEGACY`][legacy-branch] branch on
-GitHub.
-
 ## Acknowledgments
 
 - [Sebastian Raff][hobbyquaker] - for the inspiration and help in creating the
@@ -96,8 +90,6 @@ readability improvements were based.
 [install-instructions]: #install
 [issue]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg
-[legacy-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/legacy
-[legacy-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/legacy
 [license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/master/LICENSE
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
