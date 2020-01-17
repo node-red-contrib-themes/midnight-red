@@ -7,7 +7,8 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
-**THIS IS A LEGACY VERSION FOR NODE-RED 0.20.X.**
+**THIS IS A LEGACY VERSION FOR NODE-RED 0.20.X. THIS VERSION IS NO LONGER BEING
+MAINTAINED.**
 
 **FOR THE CURRENT PRODUCTION VERSION CHECK THE [`LATEST`][latest-tag] TAG ON NPM
 OR THE [`MASTER`][master-branch] BRANCH ON GITHUB.**
@@ -72,7 +73,7 @@ Enjoy!
 [latest-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/latest
 [license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/legacy/LICENSE
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/no/2020.svg
 [master-branch]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/tree/master
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
