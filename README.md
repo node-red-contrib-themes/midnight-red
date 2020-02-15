@@ -7,8 +7,6 @@
 
 [![NPM Shield][npm-shield]][npm-package]
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-
 ## About
 
 A dark theme for [Node-RED][node-red] based on the
@@ -78,8 +76,6 @@ readability improvements were based.
 [MIT][license]
 
 [bonanitech]: https://github.com/bonanitech
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/mbonani
 [commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg
 [commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/master
 [contributors]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/graphs/contributors
