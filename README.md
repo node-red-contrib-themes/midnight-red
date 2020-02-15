@@ -75,16 +75,11 @@ readability improvements were based.
 
 [MIT][license]
 
-[bonanitech]: https://github.com/bonanitech
 [commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg
 [commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/master
-[contributors]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/graphs/contributors
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [ha-midnight-theme]: https://community.home-assistant.io/t/midnight-theme/28598
 [hobbyquaker]: https://github.com/hobbyquaker
 [home-assistant]: https://home-assistant.io
-[install-instructions]: #install
-[issue]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg
 [license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/master/LICENSE
 [license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg
