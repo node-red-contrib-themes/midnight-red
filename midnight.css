@@ -8,9 +8,6 @@
 }
 
 .ace_content {
-  font-family: "Fira Code", monospace;
-  -webkit-font-feature-settings: "liga" on, "calt" on;
-  font-feature-settings: "liga" on, "calt" on;
   background-color: #141414;
   color: #93A1A1
 }
@@ -481,10 +478,6 @@
 .red-ui-icon-picker code {
   background-color: #2E333A;
   color: #DDD;
-  font-family: "Fira Code", monospace;
-  -webkit-font-feature-settings: "liga" on, "calt" on;
-  font-feature-settings: "liga" on, "calt" on;
-  font-size: 14px;
 }
 
 .red-ui-editor hr,
