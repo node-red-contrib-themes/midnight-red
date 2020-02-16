@@ -5,8 +5,6 @@
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-
 **THIS IS A LEGACY VERSION FOR NODE-RED 0.20.X. THIS VERSION IS NO LONGER BEING
 MAINTAINED.**
 
@@ -60,8 +58,6 @@ Enjoy!
 [MIT][license]
 
 [bonanitech]: https://github.com/bonanitech
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/mbonani
 [commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg
 [commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/legacy
 [contributors]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/graphs/contributors
