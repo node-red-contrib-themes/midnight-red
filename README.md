@@ -57,14 +57,10 @@ Enjoy!
 
 [MIT][license]
 
-[bonanitech]: https://github.com/bonanitech
 [commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg
 [commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/legacy
-[contributors]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/graphs/contributors
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [ha-midnight-theme]: https://community.home-assistant.io/t/midnight-theme/28598
 [home-assistant]: https://home-assistant.io
-[issue]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues
 [last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg
 [latest-tag]: https://www.npmjs.com/package/node-red-contrib-theme-midnight-red/v/latest
 [license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/legacy/LICENSE
