@@ -1752,7 +1752,7 @@ a.red-ui-button,
 button.red-ui-button {
   background-color: #434954;
   border-color: #2E333A;
-  color: #EDEDED !important;
+  color: #DDD !important;
 }
 
 a.editor-button:focus,
