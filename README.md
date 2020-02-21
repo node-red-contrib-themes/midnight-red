@@ -12,7 +12,7 @@
 A dark theme for [Node-RED][node-red] based on the
 [midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
 
-![screenshot](https://raw.githubusercontent.com/bonanitech/node-red-contrib-theme-midnight-red/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/midnight-red/master/images/screenshot.png)
 
 ## Install
 
@@ -75,14 +75,14 @@ readability improvements were based.
 
 [MIT][license]
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/bonanitech/node-red-contrib-theme-midnight-red.svg
-[commits]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/commits/master
+[commits-shield]: https://img.shields.io/github/commit-activity/y/node-red-contrib-themes/midnight-red.svg
+[commits]: https://github.com/node-red-contrib-themes/midnight-red/commits/master
 [ha-midnight-theme]: https://community.home-assistant.io/t/midnight-theme/28598
 [hobbyquaker]: https://github.com/hobbyquaker
 [home-assistant]: https://home-assistant.io
-[last-commit-shield]: https://img.shields.io/github/last-commit/bonanitech/node-red-contrib-theme-midnight-red.svg
-[license]: https://github.com/bonanitech/node-red-contrib-theme-midnight-red/blob/master/LICENSE
-[license-shield]: https://img.shields.io/github/license/bonanitech/node-red-contrib-theme-midnight-red.svg
+[last-commit-shield]: https://img.shields.io/github/last-commit/node-red-contrib-themes/midnight-red.svg
+[license]: https://github.com/node-red-contrib-themes/midnight-red/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/node-red-contrib-themes/midnight-red.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/

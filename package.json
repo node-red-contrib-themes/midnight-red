@@ -4,7 +4,7 @@
   "description": "A gorgeous dark theme for Node-RED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bonanitech/node-red-contrib-theme-midnight-red.git"
+    "url": "https://github.com/node-red-contrib-themes/midnight-red.git"
   },
   "keywords": [
     "node-red",
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bonanitech/node-red-contrib-theme-midnight-red/issues"
+    "url": "https://github.com/node-red-contrib-themes/midnight-red/issues"
   },
-  "homepage": "https://github.com/bonanitech/node-red-contrib-theme-midnight-red#readme"
+  "homepage": "https://github.com/node-red-contrib-themes/midnight-red#readme"
 }
