@@ -1819,6 +1819,7 @@ a.editor-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
 button.editor-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
 a.red-ui-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
 button.red-ui-button.toggle:not(.single).selected:not(.disabled):not(:disabled) {
+  background-color: #383C45;
   border-bottom-color: #2E333A;
 }
 
