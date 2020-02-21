@@ -1401,6 +1401,7 @@
 .red-ui-workspace-chart-grid line {
   stroke: #383C45;
   stroke-width: 0.5px;
+  shape-rendering: auto;
 }
 
 .red-ui-workspace-disabled .red-ui-flow-link-line,
