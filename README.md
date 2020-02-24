@@ -25,7 +25,7 @@ cd ~/.node-red
 Install this package.
 
 ```shell
-npm install node-red-contrib-theme-midnight-red
+npm install @node-red-contrib-themes/midnight-red
 ```
 
 Add the following to the `editorTheme` section of your `settings.js`.
@@ -33,7 +33,7 @@ Add the following to the `editorTheme` section of your `settings.js`.
 ```js
 editorTheme: {
     page: {
-        css: "<HOME>/.node-red/node_modules/node-red-contrib-theme-midnight-red/midnight.css"
+        css: "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme.css"
     }
 }
 ```
@@ -59,7 +59,7 @@ cd ~/.node-red
 Update this package.
 
 ```shell
-npm update node-red-contrib-theme-midnight-red
+npm update @node-red-contrib-themes/midnight-red
 ```
 
 Reload the Node-RED page on the web browser.
