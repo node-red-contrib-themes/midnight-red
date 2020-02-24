@@ -86,7 +86,7 @@ readability improvements were based.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
-[npm-package]: https://nodei.co/npm/node-red-contrib-theme-midnight-red
-[npm-shield]: https://nodei.co/npm/node-red-contrib-theme-midnight-red.png
+[npm-package]: https://nodei.co/npm/@node-red-contrib-themes/midnight-red
+[npm-shield]: https://nodei.co/npm/@node-red-contrib-themes/midnight-red.png
 [ristomatti]: https://github.com/ristomatti
 [solarized-dark-gray-theme]: https://github.com/ristomatti/node-red-contrib-theme-solarized-dark-grey
