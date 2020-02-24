@@ -1699,7 +1699,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 #red-ui-sidebar-separator {
-  background-color: #434954;
+  background: #434954 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAALjM6pdNupwAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==') no-repeat 50% 50%;
 }
 
 #red-ui-workspace {
