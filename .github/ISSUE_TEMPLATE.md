@@ -2,6 +2,10 @@
 
 > (Why the issue was filed)
 
+- Node-RED version:
+- Platform/OS:
+- Browser:
+
 ## Steps to reproduce
 
 > (How can someone else see it happen. If possible,
