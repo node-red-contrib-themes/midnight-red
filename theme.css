@@ -246,7 +246,7 @@
 .red-ui-diff-list-node-header:hover,
 .red-ui-diff-list-node-header:hover .red-ui-diff-list-node-description,
 .red-ui-diff-list-node-header:hover .red-ui-diff-status-unchanged .red-ui-diff-status {
-  color: #444;
+  color: #434954;
 }
 
 .red-ui-diff-list-node-icon {
