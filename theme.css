@@ -2059,6 +2059,7 @@ html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
   border-color: #2C3138;
   background-color: #414A59;
+  color: #CCC;
 }
 
 .ui-state-hover,
