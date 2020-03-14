@@ -1867,6 +1867,10 @@ color: #DDD;
   color: #888 !important;
 }
 
+.rpi-gpio-pinTable {
+  color: #666;
+}
+
 .sidebar-footer-button {
   color: #AAA !important;
   background-color: #434954;
