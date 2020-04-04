@@ -36,7 +36,7 @@
 }
 
 .nr-db-sb-list-handle {
-  color:  #DDD !important;
+  color: #DDD !important;
 }
 
 .nr-db-sb-list-header,
@@ -729,7 +729,7 @@
 
 .red-ui-editor-type-json-editor .red-ui-treeList-label:hover,
 .red-ui-editor-type-json-editor .red-ui-treeList-label:hover .red-ui-treeList-sublabel-text {
-  background-color: 414A59;
+  background-color: #414A59;
 }
 
 .red-ui-editor-type-json-editor .red-ui-treeList-label.selected .red-ui-editor-type-json-editor-item-gutter {
