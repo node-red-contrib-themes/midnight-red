@@ -2956,3 +2956,16 @@ ul.red-ui-sidebar-node-config-list .red-ui-palette-node {
 ul.red-ui-sidebar-node-config-list li.red-ui-palette-node-config-type {
   color: #AAA;
 }
+
+.red-ui-flow-node-highlighted {
+  stroke: #db1b14;
+  stroke-width: 4;
+  stroke-dasharray: 8,4;
+  animation: marchingAnts 47s linear forwards;
+  animation-iteration-count:infinite;
+}
+@keyframes marchingAnts {
+  to {
+    stroke-dashoffset: 500;
+  }
+}
