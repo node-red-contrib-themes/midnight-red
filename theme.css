@@ -79,6 +79,37 @@
   color: #DDD;
 }
 
+.red-ui-color-picker {
+  background-color: #383C45;
+}
+
+.red-ui-color-picker input[type="text"] {
+  border-bottom-color: #2D3239;
+}
+
+.red-ui-color-picker small {
+  color: #AAA;
+}
+
+.red-ui-color-picker-cell {
+  border-color: #2C3138;
+}
+
+.red-ui-color-picker-cell-none {
+  background-color: #434954;
+  background-image: linear-gradient(45deg, transparent 45%, #2C3138 45%, #2C3138 55%, transparent 55%, transparent), linear-gradient(-45deg, transparent 45%, #2C3138 45%, #2C3138 55%, transparent 55%, transparent);
+}
+
+.red-ui-color-picker-opacity-slider {
+  background-color: #434954;
+  background-image: linear-gradient(45deg, #383C45 25%, transparent 25%, transparent 75%, #383C45 25%), linear-gradient(-45deg, #383C45 25%, transparent 25%, transparent 75%, #383C45 25%);
+}
+
+.red-ui-color-picker-opacity-slider-overlay {
+  background-image: linear-gradient(90deg, transparent 0%, red 100%);
+  border-color: #2E333A;
+}
+
 .red-ui-component-footer {
   border-top-color: #2E333A;
   background-color: #383C45;
@@ -796,6 +827,20 @@
   stroke: #383C45;
 }
 
+.red-ui-group-layout-picker {
+  background-color: #383C45;
+}
+
+.red-ui-group-layout-picker-cell-text {
+  border-top-color: #AAA;
+  border-bottom-color: #AAA;
+}
+
+.red-ui-group-layout-picker-cell-text.red-ui-group-layout-text-pos- {
+  background-color: #434954;
+  background-image: linear-gradient(45deg, transparent 45%, #2C3138 45%, #2C3138 55%, transparent 55%, transparent), linear-gradient(-45deg, transparent 45%, #2C3138 45%, #2C3138 55%, transparent 55%, transparent);
+}
+
 .red-ui-help .red-ui-help-info-header {
   color: #BBB;
 }
@@ -812,12 +857,20 @@
   color: orange;
 }
 
+.red-ui-help h1.red-ui-help-title {
+  border-bottom-color: #2D3239;
+}
+
 .red-ui-help ol.node-ports li {
   border-color: #2C3138;
 }
 
 .red-ui-help-info-none {
   color: #888;
+}
+
+.red-ui-help-search {
+  border-bottom-color:#2C3138;
 }
 
 .red-ui-help-tip {
@@ -864,8 +917,52 @@
   color: #AAA;
 }
 
+.red-ui-info-header {
+  border-bottom-color: #2C3138;
+}
+
+.red-ui-info-outline .red-ui-info-outline-item.red-ui-info-outline-item-empty,
+.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-empty {
+  color: #888;
+}
+
+.red-ui-info-outline .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa,
+.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa {
+  color: #AAA;
+}
+
+.red-ui-info-outline .red-ui-info-outline-project,
+.red-ui-sidebar-help-toc .red-ui-info-outline-project {
+  border-bottom-color: #2C3138;
+}
+
+.red-ui-info-outline .red-ui-search-result-node-label,
+.red-ui-sidebar-help-toc .red-ui-search-result-node-label {
+  color: #AAA;
+}
+
+.red-ui-info-outline-item-controls {
+  background-color: #434954;
+}
+
+.red-ui-info-outline-item-disabled .red-ui-info-outline-item-label {
+  color: #2E333A;
+}
+
+.red-ui-info-toolbar .red-ui-searchBox-container {
+  background: #383C45;
+}
+
 .red-ui-library-browser .red-ui-treeList-container {
   background-color: #434954;
+}
+
+.red-ui-loading-bar {
+  border-color: #2E333A;
+}
+
+.red-ui-loading-bar>span {
+  background-color: #2C3138;
 }
 
 .red-ui-menu-dropdown .red-ui-menu-divider {
@@ -1026,6 +1123,12 @@
   background-color: #383C45;
   color: #EEE;
   border-color: #383C45;
+}
+
+.red-ui-popover a.red-ui-button:not(.primary),
+.red-ui-popover button.red-ui-button:not(.primary) {
+  border-color: #2E333A;
+  background-color: #383C45;
 }
 
 .red-ui-popover a.red-ui-button.primary,
@@ -1246,6 +1349,7 @@
 
 .red-ui-search {
   border-color: #2E333A;
+  background-color: #434954;
 }
 
 .red-ui-search-container {
@@ -1272,6 +1376,10 @@ color: #DDD;
   color: #888;
 }
 
+.red-ui-search-result-node .red-ui-color-picker-cell-none {
+  background-image: linear-gradient(45deg, #383C45 25%, transparent 25%, transparent 75%, #383C45 75%, #383C45), linear-gradient(45deg, #383C45 25%, transparent 25%, transparent 75%, #383C45 75%, #383C45);
+}
+
 .red-ui-search-result-node-flow {
   color: #888;
 }
@@ -1288,6 +1396,12 @@ color: #DDD;
   color: #888;
 }
 
+.red-ui-search-result-node.red-ui-palette-icon-flow .red-ui-palette-icon-fa,
+.red-ui-search-result-node.red-ui-palette-icon-group .red-ui-palette-icon-fa,
+.red-ui-search-result-node.red-ui-palette-icon-selection .red-ui-palette-icon-fa {
+  color: #AAA;
+}
+
 .red-ui-search-result:hover {
   color: #DDD;
   background-color: #2E333A;
@@ -1301,6 +1415,11 @@ color: #DDD;
 
 .red-ui-search-results-container {
   background-color: #383C45;
+}
+
+.red-ui-searchBox-compact input.red-ui-searchBox-input,
+.red-ui-searchBox-compact input:focus.red-ui-searchBox-input {
+  border-color: #2C3138;
 }
 
 .red-ui-searchBox-container .red-ui-searchBox-resultCount {
@@ -1788,10 +1907,18 @@ color: #DDD;
   color: #DDD;
 }
 
+.red-ui-treeList-label:hover .red-ui-info-outline-item-controls {
+  background-color: #2E333A;
+}
+
 .red-ui-treeList-label:hover,
 .red-ui-treeList-label:hover .red-ui-treeList-sublabel-text {
   background-color: #2E333A;
   color: #DDD;
+}
+
+.red-ui-treeList-label.selected .red-ui-info-outline-item-controls {
+  background-color: #353840;
 }
 
 .red-ui-treeList-label.selected,
@@ -1820,6 +1947,11 @@ color: #DDD;
 .red-ui-type-search .red-ui-search-results-container .red-ui-editableList-container {
   border-color: #2E333A;
   border-top-color: #2C3138;
+}
+
+.red-ui-typedInput-container .red-ui-typedInput-value-label .red-ui-typedInput-value-label-inactive {
+  background-color: #414A59;
+  color: #2E333A;
 }
 
 .red-ui-typedInput-container {
@@ -2096,6 +2228,14 @@ html .ui-button.ui-state-disabled:active {
 
 #red-ui-library-dialog-save-browser {
   border-color: #2E333A;
+}
+
+#red-ui-loading-progress {
+  background-color: #383C45;
+}
+
+#red-ui-loading-progress>div {
+  color: #AAA;
 }
 
 #red-ui-navigator-canvas {
@@ -2884,10 +3024,15 @@ button.red-ui-typedInput-option-trigger:not(.disabled):hover {
   background-color: #2E333A;
 }
 
-button.red-ui-typedInput-type-select.disabled i.red-ui-typedInput-icon,
-button.red-ui-typedInput-option-expand.disabled i.red-ui-typedInput-icon,
-button.red-ui-typedInput-option-trigger.disabled i.red-ui-typedInput-icon {
+button.red-ui-typedInput-type-select.disabled>i.red-ui-typedInput-icon,
+button.red-ui-typedInput-option-expand.disabled>i.red-ui-typedInput-icon,
+button.red-ui-typedInput-option-trigger.disabled>i.red-ui-typedInput-icon {
   color: #777;
+}
+
+div.red-ui-button-small.red-ui-color-picker-opacity-slider-handle {
+  border-color: #2E333A;
+  background-color: #434954;
 }
 
 label.red-ui-diff-selectbox {
