@@ -953,6 +953,11 @@
   background: #383C45;
 }
 
+.red-ui-searchBox-container a.red-ui-searchBox-opts:hover {
+  color: #CCC;
+  background: #2E333A;
+}
+
 .red-ui-library-browser .red-ui-treeList-container {
   background-color: #434954;
 }
@@ -3075,6 +3080,16 @@ table.red-ui-info-table tr.blank a:focus {
 
 table.red-ui-info-table tr.blank th {
   color: #DDD;
+}
+
+ul.red-ui-menu:not(.red-ui-menu-dropdown) li a {
+  color: #DDD;
+}
+
+ul.red-ui-menu:not(.red-ui-menu-dropdown) li a:hover,
+ul.red-ui-menu:not(.red-ui-menu-dropdown) li a:focus {
+  color: #CCC;
+  background-color: #2E333A;
 }
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-icon-container {
