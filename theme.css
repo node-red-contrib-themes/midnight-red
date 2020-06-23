@@ -703,6 +703,14 @@
   border-color: #2E333A;
 }
 
+.red-ui-editor-subflow-env-input-type {
+  background: #434954;
+}
+
+.red-ui-editor-subflow-env-input-type-placeholder {
+  color: #888;
+}
+
 .red-ui-editor-subflow-env-ui-row>div:first-child {
   color: #888;
 }
@@ -784,6 +792,13 @@
 .red-ui-editor-type-markdown-panel-preview {
   border-color: #2C3138;
   background-color: #434954;
+}
+
+.red-ui-flow-group-body {
+  fill: #383C45;
+  fill-opacity: 0.5;
+  stroke: #2E333A;
+  stroke-opacity: 0.5;
 }
 
 .red-ui-flow-link-background {
@@ -1297,6 +1312,10 @@
   background-color: #434954;
   border-left-color: #434954;
   border-right-color: #434954;
+}
+
+.red-ui-projects-dialog-project-list-entry-delete-confirm {
+  background-color: #434954;
 }
 
 .red-ui-projects-dialog-project-list-entry.projects-list-entry-current i {
