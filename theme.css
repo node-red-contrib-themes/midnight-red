@@ -1610,10 +1610,6 @@ color: #DDD;
   border-color: #2E333A;
 }
 
-.red-ui-tab-button a:focus {
-  outline-color: #2D3239;
-}
-
 .red-ui-tab-button a:not(.disabled):not(:disabled):active {
   color: #CCC !important;
   background-color: #353840;
@@ -1663,10 +1659,6 @@ color: #DDD;
   color: #AAA !important;
   background-color: #434954;
   border-color: #2D3239;
-}
-
-.red-ui-tab-link-buttons a:focus {
-  outline-color: #2D3239;
 }
 
 .red-ui-tab-link-buttons a:not(.disabled):not(:disabled):active {
@@ -1838,10 +1830,6 @@ color: #DDD;
   border-color: #2D3239;
 }
 
-.red-ui-tray-toolbar button:focus {
-  outline-color: #2D3239;
-}
-
 .red-ui-tray-toolbar button:not(.disabled):not(:disabled):active {
   color: #CCC !important;
   background-color: #353840;
@@ -1876,10 +1864,6 @@ color: #DDD;
   color: #AAA !important;
   background-color: #434954;
   border-color: #2D3239;
-}
-
-.red-ui-tray-toolbar button.toggle:focus {
-  outline-color: #2D3239;
 }
 
 .red-ui-tray-toolbar button.toggle:not(.disabled):not(:disabled):active {
@@ -2038,10 +2022,6 @@ color: #DDD;
   border-color: #2D3239;
 }
 
-.sidebar-footer-button-toggle:focus {
-  outline-color: #2D3239;
-}
-
 .sidebar-footer-button-toggle:not(.disabled):not(:disabled):active {
   color: #CCC !important;
   background-color: #353840;
@@ -2074,10 +2054,6 @@ color: #DDD;
 .sidebar-footer-button-toggle.selected:not(.disabled):not(:disabled) {
   color: #CCC !important;
   background-color: #353840;
-}
-
-.sidebar-footer-button:focus {
-  outline-color: #2D3239;
 }
 
 .sidebar-footer-button:not(.disabled):not(:disabled):active {
@@ -2133,10 +2109,6 @@ color: #DDD;
   color: #AAA !important;
   background-color: #434954;
   border-color: #2D3239;
-}
-
-.ui-dialog-buttonset button:focus {
-  outline-color: #2D3239;
 }
 
 .ui-dialog-buttonset button:not(.disabled):not(:disabled):active {
@@ -2382,10 +2354,6 @@ html .ui-button.ui-state-disabled:active {
   border-color: #2D3239;
 }
 
-#red-ui-sidebar .button:focus {
-  outline-color: #2D3239;
-}
-
 #red-ui-sidebar .button:not(.disabled):not(:disabled):active {
   color: #CCC !important;
   background-color: #353840;
@@ -2442,10 +2410,6 @@ html .ui-button.ui-state-disabled:active {
   background-color: #353840;
 }
 
-#red-ui-workspace-toolbar .button:focus {
-  outline-color: #2D3239;
-}
-
 #red-ui-workspace-toolbar .button:not(.disabled):not(:disabled):active {
   color: #CCC !important;
   background-color: #353840;
@@ -2496,13 +2460,6 @@ button.red-ui-button {
   color: #AAA !important;
   background-color: #434954;
   border-color: #2D3239;
-}
-
-a.editor-button:focus,
-button.editor-button:focus,
-a.red-ui-button:focus,
-button.red-ui-button:focus {
-  outline-color: #2D3239;
 }
 
 a.editor-button:not(.disabled):not(:disabled):active,
@@ -2565,13 +2522,6 @@ button.red-ui-button.toggle {
   color: #AAA !important;
   background-color: #434954;
   border-color: #2D3239;
-}
-
-a.editor-button.toggle:focus,
-button.editor-button.toggle:focus,
-a.red-ui-button.toggle:focus,
-button.red-ui-button.toggle:focus {
-  outline-color: #2D3239;
 }
 
 a.editor-button.toggle:not(.disabled):not(:disabled):active,
@@ -2642,11 +2592,6 @@ button.red-ui-footer-button-toggle {
   border-color: #2D3239;
 }
 
-a.red-ui-footer-button-toggle:focus,
-button.red-ui-footer-button-toggle:focus {
-  outline-color: #2D3239;
-}
-
 a.red-ui-footer-button-toggle:not(.disabled):not(:disabled):active,
 button.red-ui-footer-button-toggle:not(.disabled):not(:disabled):active {
   color: #CCC !important;
@@ -2697,11 +2642,6 @@ button.red-ui-footer-button {
   border-color: #2D3239;
 }
 
-a.red-ui-footer-button:focus,
-button.red-ui-footer-button:focus {
-  outline-color: #2D3239;
-}
-
 a.red-ui-footer-button:not(.disabled):not(:disabled):active,
 button.red-ui-footer-button:not(.disabled):not(:disabled):active {
   color: #CCC !important;
@@ -2746,11 +2686,6 @@ button.red-ui-tray-resize-button {
   background-color: #434954;
   border-color: #2D3239;
   border-bottom-color: #2C3138;
-}
-
-a.red-ui-tray-resize-button:focus,
-button.red-ui-tray-resize-button:focus {
-  outline-color: #2D3239;
 }
 
 a.red-ui-tray-resize-button:not(.disabled):not(:disabled):active,
@@ -2798,13 +2733,6 @@ button.red-ui-sidebar-header-button-toggle {
   color: #AAA !important;
   background-color: #434954;
   border-color: #2D3239;
-}
-
-a.sidebar-header-button-toggle:focus,
-button.sidebar-header-button-toggle:focus,
-a.red-ui-sidebar-header-button-toggle:focus,
-button.red-ui-sidebar-header-button-toggle:focus {
-  outline-color: #2D3239;
 }
 
 a.sidebar-header-button-toggle:not(.disabled):not(:disabled):active,
@@ -2877,13 +2805,6 @@ button.red-ui-sidebar-header-button {
   border-color: #2D3239;
 }
 
-a.sidebar-header-button:focus,
-button.sidebar-header-button:focus,
-a.red-ui-sidebar-header-button:focus,
-button.red-ui-sidebar-header-button:focus {
-  outline-color: #2D3239;
-}
-
 a.sidebar-header-button:not(.disabled):not(:disabled):active,
 button.sidebar-header-button:not(.disabled):not(:disabled):active,
 a.red-ui-sidebar-header-button:not(.disabled):not(:disabled):active,
@@ -2945,13 +2866,6 @@ button.red-ui-sidebar-header-button.toggle {
   color: #AAA !important;
   background-color: #434954;
   border-color: #2D3239;
-}
-
-a.sidebar-header-button.toggle:focus,
-button.sidebar-header-button.toggle:focus,
-a.red-ui-sidebar-header-button.toggle:focus,
-button.red-ui-sidebar-header-button.toggle:focus {
-  outline-color: #2D3239;
 }
 
 a.sidebar-header-button.toggle:not(.disabled):not(:disabled):active,
