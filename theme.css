@@ -316,6 +316,11 @@
   border-left-color: #2D3239;
 }
 
+.red-ui-diff-text table.red-ui-diff-text-content td.linetext.added,
+.red-ui-diff-text table.red-ui-diff-text-content td.linetext.removed {
+  color: #666;
+}
+
 .red-ui-diff-text table.red-ui-diff-text-content td.unchanged {
   background: #434954;
 }
