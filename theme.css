@@ -801,6 +801,10 @@
   stroke-opacity: 0.5;
 }
 
+.red-ui-flow-group-outline-select.red-ui-flow-group-outline-select-background {
+  stroke: #434954;
+}
+
 .red-ui-flow-link-background {
   stroke: #434954;
 }
