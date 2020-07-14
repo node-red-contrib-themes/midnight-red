@@ -800,10 +800,9 @@
 }
 
 .red-ui-flow-group-body {
-  fill: #383C45;
-  fill-opacity: 0.5;
+  fill: #2E333A;
+  fill-opacity: 0.75;
   stroke: #2E333A;
-  stroke-opacity: 0.5;
 }
 
 .red-ui-flow-group-outline-select.red-ui-flow-group-outline-select-background {
