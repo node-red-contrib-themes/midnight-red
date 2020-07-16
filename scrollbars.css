@@ -1,9 +1,14 @@
+/*
+  midnight-red - https://github.com/node-red-contrib-themes/midnight-red
+*/
+
 .red-ui-editor {
   scrollbar-color: #999 #2E333A;
+  scrollbar-width: initial;
 }
 
 ::-webkit-scrollbar {
-  width: 1em;
+  width: initial;
 }
 
 ::-webkit-scrollbar-corner {
@@ -12,6 +17,8 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #999;
+  border-radius: 20px;
+  border: 3px solid #2E333A;
 }
 
 ::-webkit-scrollbar-track {
