@@ -77,8 +77,10 @@ look like the following.
 ```js
 editorTheme: {
     page: {
-        css: "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme.css",
-        css: "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/scrollbars.css"
+        css: [
+            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme.css",
+            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/scrollbars.css"
+        ]
     }
 }
 ```
