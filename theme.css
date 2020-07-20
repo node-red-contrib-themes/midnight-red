@@ -969,7 +969,7 @@
 }
 
 .red-ui-info-outline-item-disabled .red-ui-info-outline-item-label {
-  color: #2E333A;
+  opacity: 0.4;
 }
 
 .red-ui-info-toolbar .red-ui-searchBox-container {
