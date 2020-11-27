@@ -146,6 +146,16 @@
   color: #CCC;
 }
 
+.red-ui-debug-msg-level-20 {
+  border-left-color: #f99;
+  border-right-color: #f99;
+}
+
+.red-ui-debug-msg-level-30 {
+  border-left-color: #ffdf9d;
+  border-right-color: #ffdf9d;
+}
+
 .red-ui-debug-msg-level-log {
   border-left-color: #383C45;
   border-right-color: #383C45;
