@@ -3,7 +3,7 @@
 */
 
 .red-ui-editor {
-  scrollbar-color: #999 #2E333A;
+  scrollbar-color: #999 #3E424B;
   scrollbar-width: initial;
 }
 
@@ -12,15 +12,15 @@
 }
 
 ::-webkit-scrollbar-corner {
-  background-color: #2E333A;
+  background-color: #3E424B;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #999;
   border-radius: 20px;
-  border: 3px solid #2E333A;
+  border: 3px solid #3E424B;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #2E333A;
+  background-color: #3E424B;
 }
