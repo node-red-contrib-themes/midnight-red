@@ -114,7 +114,7 @@ readability improvements were based.
 [last-commit-shield]: https://img.shields.io/github/last-commit/node-red-contrib-themes/midnight-red.svg
 [license]: https://github.com/node-red-contrib-themes/midnight-red/blob/master/LICENSE
 [license-shield]: https://img.shields.io/github/license/node-red-contrib-themes/midnight-red.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
 [npm-package]: https://nodei.co/npm/@node-red-contrib-themes/midnight-red
