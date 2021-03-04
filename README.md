@@ -7,7 +7,7 @@
 
 [![NPM Shield][npm-shield]][npm-package]
 
-## About
+<a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px" width="217px"></a>
 
 A dark theme for [Node-RED][node-red] based on the
 [midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
@@ -16,70 +16,48 @@ A dark theme for [Node-RED][node-red] based on the
 
 ## Install
 
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
+Install via npm.
 
 ```shell
-cd ~/.node-red
+$ cd ~/.node-red
+$ npm install @node-red-contrib-themes/midnight-red
 ```
 
-Install this package.
-
-```shell
-npm install @node-red-contrib-themes/midnight-red
-```
-
-Add the following to the `editorTheme` section of your `settings.js`.
+Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
 ```js
 editorTheme: {
-    page: {
-        css: "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme.css"
-    }
+    theme: "midnight-red"
 }
 ```
 
-Replace `<HOME>` with the home directory of the user running Node-RED. For
-example, `/home/username`.
+### Themed Scrollbars (EXPERIMENTAL)
 
-For more details on the configuration please refer to the
-[Node-RED official documentation][node-red-doc].
+This includes changes to the scrollbars to make them better fit the theme.
 
-Restart Node-RED.
-
-Enjoy!
-
-## Update
-
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
-
-```shell
-cd ~/.node-red
-```
-
-Update this package.
-
-```shell
-npm update @node-red-contrib-themes/midnight-red
-```
-
-Reload the Node-RED page on the web browser.
-
-## Scrollbars (EXPERIMENTAL)
-
-This version includes a [change][scrollbar-pr] to the scrollbars by [Villhellm][villhellm]
-to make them better fit the dark theme.
-
-**NOTE**: This is ***EXPERIMENTAL***! Please let us know if you find any issues when using it.
+**NOTE**: This is ***EXPERIMENTAL*** and may not work on all browsers.
 
 If you want to try it, change the `editorTheme` section of your `settings.js` to
-look like the following.
+look like the following, and then restart Node-RED.
+
+```js
+editorTheme: {
+    theme: "midnight-red-scroll"
+}
+```
+
+### Node-RED versions from 1.0.0 to 1.2.9
+
+Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
 ```js
 editorTheme: {
     page: {
         css: [
-            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme.css",
-            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/scrollbars.css"
+            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme.css"
+            // Uncomment the next two lines if you want to use the themed scrollbars.
+            // ,
+            // "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme-scrollbars.css",
         ]
     }
 }
@@ -90,8 +68,6 @@ example, `/home/username`.
 
 For more details on the configuration please refer to the
 [Node-RED official documentation][node-red-doc].
-
-Restart Node-RED.
 
 Enjoy!
 
@@ -120,6 +96,4 @@ readability improvements were based.
 [npm-package]: https://nodei.co/npm/@node-red-contrib-themes/midnight-red
 [npm-shield]: https://nodei.co/npm/@node-red-contrib-themes/midnight-red.png
 [ristomatti]: https://github.com/ristomatti
-[scrollbar-pr]: https://github.com/node-red-contrib-themes/midnight-red/pull/18
 [solarized-dark-gray-theme]: https://github.com/ristomatti/node-red-contrib-theme-solarized-dark-grey
-[villhellm]: https://github.com/Villhellm

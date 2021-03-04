@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/node-red-contrib-themes/midnight-red/issues"
   },
-  "homepage": "https://github.com/node-red-contrib-themes/midnight-red#readme"
+  "homepage": "https://github.com/node-red-contrib-themes/midnight-red#readme",
+  "node-red": {
+    "plugins": {
+      "midnight-red": "theme.js"
+    }
+  }
 }
