@@ -2,6 +2,7 @@
 
 > (Why the issue was filed)
 
+- Theme version:
 - Node-RED version:
 - Platform/OS:
 - Browser:
