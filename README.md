@@ -16,12 +16,15 @@ A dark theme for [Node-RED][node-red] based on the
 
 ## Install
 
-Install via npm.
+Install via npm
 
 ```shell
-$ cd ~/.node-red
-$ npm install @node-red-contrib-themes/midnight-red
+npm install @node-red-contrib-themes/midnight-red
 ```
+
+## Configuration
+
+### Node-RED version 1.3.0 or later
 
 Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
@@ -54,17 +57,16 @@ Add the following to the `editorTheme` section of your `settings.js`, and then r
 editorTheme: {
     page: {
         css: [
-            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme.css"
+            "<user-dir>/node_modules/@node-red-contrib-themes/midnight-red/theme.css"
             // Uncomment the next two lines if you want to use the themed scrollbars.
             // ,
-            // "<HOME>/.node-red/node_modules/@node-red-contrib-themes/midnight-red/theme-scrollbars.css",
+            // "<user-dir>/node_modules/@node-red-contrib-themes/midnight-red/theme-scrollbars.css",
         ]
     }
 }
 ```
 
-Replace `<HOME>` with the home directory of the user running Node-RED. For
-example, `/home/username`.
+Replace `<user-dir>` with the Node-RED User directory. For example, `/home/username/.node-red`.
 
 For more details on the configuration please refer to the
 [Node-RED official documentation][node-red-doc].
