@@ -483,6 +483,15 @@
   border-color: #2D3239;
 }
 
+.red-ui-editor .red-ui-font-code,
+.red-ui-editor-dialog .red-ui-font-code,
+.red-ui-menu .red-ui-font-code,
+.red-ui-popover .red-ui-font-code,
+.red-ui-typedInput-options .red-ui-font-code,
+.red-ui-icon-picker .red-ui-font-code {
+  color: orange;
+}
+
 .red-ui-editor .red-ui-tray .red-ui-editor-type-markdown-editor #dialog-form .red-ui-panel:last-child {
   background-color: #383C45;
 }
