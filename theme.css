@@ -1530,6 +1530,11 @@ color: #DDD;
   color: #AAA;
 }
 
+.red-ui-settings-tab-library-entry span:nth-child(3),
+.red-ui-settings-tab-library-entry span:nth-child(4) {
+  color: #AAA;
+}
+
 .red-ui-settings-tabs-container {
   background-color: #3E424B;
 }
