@@ -57,10 +57,10 @@ Add the following to the `editorTheme` section of your `settings.js`, and then r
 editorTheme: {
     page: {
         css: [
-            "<user-dir>/node_modules/@node-red-contrib-themes/midnight-red/theme.css"
+            "<user-dir>/node_modules/@node-red-contrib-themes/midnight-red/theme.min.css"
             // Uncomment the next two lines if you want to use the themed scrollbars.
             // ,
-            // "<user-dir>/node_modules/@node-red-contrib-themes/midnight-red/scrollbars.css",
+            // "<user-dir>/node_modules/@node-red-contrib-themes/midnight-red/scrollbars.min.css",
         ]
     }
 }
