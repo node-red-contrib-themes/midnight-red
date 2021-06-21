@@ -31,22 +31,21 @@ Add the following to the `editorTheme` section of your `settings.js`, and then r
 ```js
 editorTheme: {
     theme: "midnight-red"
-}
+},
 ```
 
 ### Themed Scrollbars (EXPERIMENTAL)
 
-This includes changes to the scrollbars to make them better fit the theme.
+This includes the theme and changes to the scrollbars to make them better fit the theme.
 
 **NOTE**: This is ***EXPERIMENTAL*** and may not work on all browsers.
 
-If you want to try it, change the `editorTheme` section of your `settings.js` to
-look like the following, and then restart Node-RED.
+If you want to try it, add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
 ```js
 editorTheme: {
     theme: "midnight-red-scroll"
-}
+},
 ```
 
 ### Node-RED versions from 1.0.0 to 1.2.9
@@ -61,9 +60,9 @@ editorTheme: {
             // Uncomment the next two lines if you want to use the themed scrollbars.
             // ,
             // "<user-dir>/node_modules/@node-red-contrib-themes/midnight-red/scrollbars.min.css",
-        ]
-    }
-}
+        ],
+    },
+},
 ```
 
 Replace `<user-dir>` with the Node-RED User directory. For example, `/home/username/.node-red`.
