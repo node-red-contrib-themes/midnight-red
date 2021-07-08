@@ -2,5 +2,6 @@
 ._*
 .git*
 images
+*.scss
 *.css
 !*.min.css
