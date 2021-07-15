@@ -251,3 +251,15 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 .rpi-gpio-pinTable {
   color: #555;
 }
+
+/* 
+  Config nodes
+*/
+
+ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
+  color: #BBB;
+}
+
+ul.red-ui-sidebar-node-config-list .red-ui-palette-node {
+  border-color: #2E333A;
+}
