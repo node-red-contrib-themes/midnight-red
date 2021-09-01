@@ -212,25 +212,6 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 /*
 * SVG images
 */
-.red-ui-icons-flow {
-  background-image: url(/red/images/subflow_tab.svg);
-  filter: brightness(0) saturate(100%) invert(77%) sepia(74%) saturate(0%) hue-rotate(219deg) brightness(88%) contrast(83%);
-}
-
-.red-ui-treeList-spinner {
-  background: url(/red/images/spin.svg) 50% 50% no-repeat;
-  filter: brightness(0) saturate(100%) invert(77%) sepia(74%) saturate(0%) hue-rotate(219deg) brightness(88%) contrast(83%);
-}
-
-.red-ui-editor i.spinner,
-.red-ui-editor-dialog i.spinner,
-.red-ui-menu i.spinner,
-.red-ui-popover i.spinner,
-.red-ui-typedInput-options i.spinner,
-.red-ui-icon-picker i.spinner {
-  background: url(/red/images/spin.svg) no-repeat 50% 50%;
-  filter: brightness(0) saturate(100%) invert(77%) sepia(74%) saturate(0%) hue-rotate(219deg) brightness(88%) contrast(83%);
-}
 
 /*
 * jQuery ui widgets
