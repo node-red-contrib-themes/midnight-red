@@ -230,7 +230,7 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 .red-ui-icon-picker i.spinner {
   background: url(/red/images/spin.svg) no-repeat 50% 50%;
   filter: brightness(0) saturate(100%) invert(77%) sepia(74%) saturate(0%) hue-rotate(219deg) brightness(88%) contrast(83%);
-  }
+}
 
 /*
 * jQuery ui widgets
@@ -253,9 +253,8 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 }
 
 /* 
-  Config nodes
+* Config nodes
 */
-
 ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
   color: #BBB;
 }
