@@ -140,11 +140,11 @@ $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(160,160,160,0.5);
 
-
-$popover-background: #383C45;
-$popover-color: #eee;
-$popover-button-border-color: #2E333A;
-$popover-button-border-color-hover: #CCC;
+$popover-background: $primary-background;
+$popover-border: $tertiary-border-color;
+$popover-color: $secondary-text-color;
+$popover-button-border-color: $primary-border-color;
+$popover-button-border-color-hover: $secondary-text-color-hover;
 
 
 
@@ -294,6 +294,9 @@ $group-default-fill-opacity: 0.5;
 $group-default-stroke: #2E333A;
 $group-default-stroke-opacity: 1;
 $group-default-label-color: #a4a4a4;
+
+$tourGuide-border: #c56c6c;
+$tourGuide-heading-color: #c56c6c;
 
 // Deprecated
 $text-color-green: $text-color-success;
