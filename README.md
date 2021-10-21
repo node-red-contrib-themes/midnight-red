@@ -1,4 +1,4 @@
-# Midnight Node-RED theme
+# Node-RED Contrib Theme: Midnight-RED
 
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE)
