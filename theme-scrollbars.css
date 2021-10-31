@@ -8,8 +8,8 @@
 }
 
 ::-webkit-scrollbar {
-  width: 1vw;
-  height: 1vw;
+  width: auto;
+  height: auto;
 }
 
 ::-webkit-scrollbar-corner {
@@ -18,7 +18,7 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--red-ui-secondary-text-color);
-  border-radius: 1vw;
+  border-radius: 100px;
   border: 3px solid var(--red-ui-tertiary-background);
 }
 
