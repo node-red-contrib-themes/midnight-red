@@ -1,72 +1,65 @@
 # Node-RED Contrib Theme: Midnight-RED
 
-![Project Maintenance][maintenance-shield]
-[![License][license-shield]](LICENSE)
-[![GitHub Activity][commits-shield]][commits]
-[![GitHub Last Commit][last-commit-shield]][commits]
-
-[![NPM Shield][npm-shield]][npm-package]
-
-<a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px" width="217px"></a>
-
 A dark theme for [Node-RED][node-red] based on the
 [midnight theme][ha-midnight-theme] for [Home Assistant][home-assistant].
 
 ![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/midnight-red/master/images/screenshot.png)
 
+This theme is part of the [Node-RED Contrib Theme Collection][theme-collection].
+
 ## Install
 
-Install via npm
+### Install with npm
+
+Run the following command from within the Node-RED user data directory (by default, `$HOME/.node-red`).
 
 ```shell
 npm install @node-red-contrib-themes/midnight-red
 ```
 
-## Configuration
+## Usage
 
-Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
+Add `theme: "midnight-red"` to the `editorTheme` object in your `settings.js` and then restart Node-RED.
 
 ```js
 editorTheme: {
-    theme: "midnight-red"
+    theme: "midnight-red",
 },
 ```
 
-### Themed Scrollbars (EXPERIMENTAL)
+For details on the Node-RED's configuration file and its structure, please refer to the [Node-RED official documentation][node-red-doc].
 
-This includes the theme and changes to the scrollbars to make them better fit the theme.
+### Themed Scrollbars (*EXPERIMENTAL*)
+
+Includes the theme and changes the scrollbars to make them better fit the theme.
 
 **NOTE**: This is ***EXPERIMENTAL*** and may not work on all browsers.
 
-If you want to try it, add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
+Add `theme: "midnight-red-scroll"` to the `editorTheme` object in your `settings.js` and then restart Node-RED.
 
 ```js
 editorTheme: {
-    theme: "midnight-red-scroll"
+    theme: "midnight-red-scroll",
 },
 ```
 
-### Monaco Editor Themes
+### Monaco Editor Theme
 
 This package comes with a pre-configured theme for the Monaco editor.
 
-**NOTE**: Node-RED version 2.1 or newer is required.
-
-If you want to use it, leave the `theme` option under `codeEditor` in your `settings.js` file commented out.
+Just leave `theme` under `codeEditor` commented out in your `settings.js` and then restart Node-RED.
 
 ```js
-codeEditor: {
-    lib: "monaco",
-    options: {
-        // theme: "vs",
-    }
-}    
+editorTheme: {
+    theme: midnight-red,
+    codeEditor: {
+        lib: "monaco",
+        options: {
+            // theme: "",
+        },
+    },
+},
 ```
-
-For more details on the configuration please refer to the
-[Node-RED official documentation][node-red-doc].
-
-Enjoy!
 
 ## Acknowledgments
 
@@ -77,20 +70,22 @@ readability improvements were based.
 
 ## License
 
-[MIT][license]
+This project is licensed under the [MIT license][license].
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/node-red-contrib-themes/midnight-red.svg
-[commits]: https://github.com/node-red-contrib-themes/midnight-red/commits/master
+## Like my work?
+
+If you like my work please give it a GitHub ⭐️.
+
+Also, consider supporting me with a coffee ☕.
+
+<a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px"></a>
+
 [ha-midnight-theme]: https://community.home-assistant.io/t/midnight-theme/28598
 [hobbyquaker]: https://github.com/hobbyquaker
 [home-assistant]: https://home-assistant.io
-[last-commit-shield]: https://img.shields.io/github/last-commit/node-red-contrib-themes/midnight-red.svg
-[license]: https://github.com/node-red-contrib-themes/midnight-red/blob/master/LICENSE
-[license-shield]: https://img.shields.io/github/license/node-red-contrib-themes/midnight-red.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
-[node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
+[license]: LICENSE
+[node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
-[npm-package]: https://nodei.co/npm/@node-red-contrib-themes/midnight-red
-[npm-shield]: https://nodei.co/npm/@node-red-contrib-themes/midnight-red.png
 [ristomatti]: https://github.com/ristomatti
 [solarized-dark-gray-theme]: https://github.com/ristomatti/node-red-contrib-theme-solarized-dark-grey
+[theme-collection]: https://www.npmjs.com/package/@node-red-contrib-themes/theme-collection
