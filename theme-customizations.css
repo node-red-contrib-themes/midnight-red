@@ -246,13 +246,6 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
   color: var(--red-ui-primary-text-color);
 }
 
-/*
-* RPi GPIO - https://github.com/node-red-contrib-themes/midnight-red/pull/15
-*/
-.rpi-gpio-pinTable {
-  color: #555;
-}
-
 /* 
 * Config nodes
 */
