@@ -75,7 +75,7 @@ $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
 
-$form-tips-background: #383C45;
+$form-tips-background: $primary-background;
 
 
 $text-editor-color: #DDD;//#00f;
@@ -101,7 +101,7 @@ $list-item-secondary-color: $secondary-text-color;
 $list-item-background: $secondary-background;
 $list-item-background-disabled: $secondary-background-inactive;
 $list-item-background-hover: $secondary-background-hover;
-$list-item-background-selected: #353840;//#e9e900;
+$list-item-background-selected: $secondary-background-selected;//#e9e900;
 $list-item-border-selected: $secondary-text-color-selected;
 
 $tab-text-color-active: $header-text-color;
@@ -194,7 +194,7 @@ $view-lasso-fill: rgba(20,125,255,0.1);
 
 $view-background: $secondary-background;
 $view-select-mode-background: $secondary-background-selected;
-$view-grid-color: #383C45;
+$view-grid-color: $primary-background;
 
 $node-label-color: #333;
 $node-port-label-color: #888;
@@ -238,7 +238,7 @@ $link-disabled-color: #ccc;
 $link-link-active-color: #ff7f0e;
 $link-unknown-color: #f00;
 
-$clipboard-textarea-background: #383C45;
+$clipboard-textarea-background: $primary-background;
 
 
 $deploy-button-color: #eee;
