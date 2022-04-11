@@ -23,6 +23,6 @@ jobs:
           node-version: '16.x'
 
       - name: npm publish
-        uses: JS-DevTools/npm-publish@v1.0.0
+        uses: JS-DevTools/npm-publish@v1.4.3
         with:
           token: ${{ secrets.NPM_TOKEN }}
