@@ -149,29 +149,29 @@ $popover-button-border-color-hover: $secondary-text-color-hover;
 
 
 $diff-text-header-color: $secondary-text-color;
-$diff-text-header-background: #ffd;
+$diff-text-header-background: $secondary-background;
 $diff-text-header-background-hover: #ffc;
-$diff-state-added: #009900;
-$diff-state-deleted: #f80000;
-$diff-state-changed: #f89406;
-$diff-state-changed-background: #3E424B;
+$diff-state-added: #0DA035;
+$diff-state-deleted: #E45E65;
+$diff-state-changed: #F4B400;
+$diff-state-unchanged-background: $secondary-background;
 $diff-state-unchanged: #bbb;
-$diff-state-unchanged-background: #434954;
+$diff-state-unchanged-background: $secondary-background;
 
 $diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
 $diff-state-conflict-background: #ffdad4;
 
-$diff-state-added-background: #117800;
-$diff-state-added-border: #27431e;
-$diff-state-added-header-background: #0d5f0d;
-$diff-state-added-header-border: #105510;
+$diff-state-added-background: #e7ffe3;
+$diff-state-added-border: #b8daad;
+$diff-state-added-header-background: #c0f6c0;
+$diff-state-added-header-border: #aaeeaa;
 
-$diff-state-deleted-background: #780000;
-$diff-state-deleted-border: #4a1d1d;
-$diff-state-deleted-header-background: #720000;
-$diff-state-deleted-header-border: #551515;
+$diff-state-deleted-background: #ffe1e1;
+$diff-state-deleted-border: #e4bcbc;
+$diff-state-deleted-header-background: #ffcccc;
+$diff-state-deleted-header-border: #eebbbb;
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
