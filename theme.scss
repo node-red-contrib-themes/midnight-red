@@ -78,15 +78,15 @@ $form-button-background: $secondary-background-selected;
 $form-tips-background: $primary-background;
 
 
-$text-editor-color: #DDD;//#00f;
-$text-editor-background: #121212;
+$text-editor-color: #DEDEDE;//#00f;
+$text-editor-background: #000;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: #383C45;//#ee0;
-$text-editor-gutter-color: #DDD;//#00e;
-$text-editor-gutter-active-line-background: rgba(221, 221, 221, 0.1);//#dd0;
-$text-editor-active-line-background: rgba(221, 221, 221, 0.1);//#ee0;
-$text-editor-selection-background: #434954;//#e0e;
+$text-editor-gutter-background: #1A1A1A;//#ee0;
+$text-editor-gutter-color: #DEDEDE;//#00e;
+$text-editor-gutter-active-line-background: #2A2A2A;//#dd0;
+$text-editor-active-line-background: #2A2A2A;//#ee0;
+$text-editor-selection-background: #424242;//#e0e;
 
 $event-log-background: #434954;
 $event-log-color: #DDD;
