@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - master
+    paths:
+      - "package.json"
 
 jobs:
   npm-publish:
