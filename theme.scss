@@ -88,10 +88,10 @@ $text-editor-gutter-active-line-background: #2A2A2A;//#dd0;
 $text-editor-active-line-background: #2A2A2A;//#ee0;
 $text-editor-selection-background: #424242;//#e0e;
 
-$event-log-background: #434954;
-$event-log-color: #DDD;
-$event-log-active-line-background: #383C45;
-$event-log-selection-background: #999;
+$event-log-background: $secondary-background;
+$event-log-color: $primary-text-color;
+$event-log-active-line-background: $primary-background;
+$event-log-selection-background: $secondary-background-selected;
 
 
 
