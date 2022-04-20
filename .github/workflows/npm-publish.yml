@@ -2,27 +2,13 @@
 name: NPM Publish
 
 on:
+  release:
+    types:
+      - published
   workflow_dispatch:
-  push:
-    branches:
-      - master
-    paths:
-      - "package.json"
 
 jobs:
-  npm-publish:
-    name: npm-publish
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3.1.1
-        with:
-          node-version: '16.x'
-
-      - name: npm publish
-        uses: JS-DevTools/npm-publish@v1.4.3
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+  workflows:
+    uses: node-red-contrib-themes/workflows/.github/workflows/npm-publish.yml@master
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
