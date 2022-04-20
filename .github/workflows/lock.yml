@@ -1,0 +1,11 @@
+---
+name: Lock
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  workflows:
+    uses: node-red-contrib-themes/workflows/.github/workflows/lock.yml@master

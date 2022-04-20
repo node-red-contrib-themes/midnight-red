@@ -1,0 +1,11 @@
+---
+name: Release Drafter
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update_release_draft:
+    uses: node-red-contrib-themes/workflows/.github/workflows/release-drafter.yml@master

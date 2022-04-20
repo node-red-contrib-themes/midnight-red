@@ -1,0 +1,11 @@
+---
+name: Sync labels
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  workflows:
+    uses: node-red-contrib-themes/workflows/.github/workflows/labels.yml@master
