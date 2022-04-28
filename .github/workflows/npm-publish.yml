@@ -1,5 +1,5 @@
 ---
-name: NPM Publish
+name: "NPM Publish"
 
 on:
   release:
