@@ -1,3 +1,9 @@
+# DEPRECATED REPOSITORY
+
+As of Node-RED 3.0, this theme is maintained in the [Node-RED Contrib Theme Collection](https://github.com/node-red-contrib-themes/theme-collection) repository.
+
+DEVELOPERS: If your project uses this theme as a dependency, please update your project as this repository will no longer be maintained.
+
 # Node-RED Contrib Theme: Midnight-RED
 
 A dark theme for [Node-RED][node-red] based on the
